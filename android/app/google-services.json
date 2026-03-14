@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "776056212786",
+    "project_id": "crisfiit",
+    "storage_bucket": "crisfiit.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776056212786:android:d7b5bb6867229709b25b2b",
+        "android_client_info": {
+          "package_name": "com.equivalencias.crisfiit"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAXlCxNjkJKU9l-bp9GGZGdRcyHasD7IE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

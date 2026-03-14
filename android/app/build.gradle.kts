@@ -3,15 +3,18 @@ import java.util.Properties
 plugins {
     id("com.android.application")
     id("kotlin-android")
-    // Flutter Gradle plugin debe ir después de Android y Kotlin
     id("dev.flutter.flutter-gradle-plugin")
+    id("com.google.gms.google-services")
+    id("com.google.firebase.crashlytics")
 }
 
-// Cargar propiedades del keystore
+// Cargar propiedades del keystore con tipo explícito
 val keystorePropertiesFile = rootProject.file("key.properties")
 val keystoreProperties = Properties().apply {
     if (keystorePropertiesFile.exists()) {
-        keystorePropertiesFile.inputStream().use { load(it) }
+        keystorePropertiesFile.inputStream().use { stream: java.io.InputStream ->
+            load(stream)
+        }
     }
 }
 
@@ -33,6 +36,7 @@ android {
         targetCompatibility = JavaVersion.VERSION_17
     }
 
+    // ⚠️ Aquí la forma correcta de KotlinOptions compatible con Flutter
     kotlinOptions {
         jvmTarget = "17"
     }
@@ -64,4 +68,12 @@ android {
 
 flutter {
     source = "../.."
+}
+
+dependencies {
+    // Firebase BoM
+    implementation(platform("com.google.firebase:firebase-bom:34.10.0"))
+
+    // Firebase Analytics
+    implementation("com.google.firebase:firebase-analytics")
 }
