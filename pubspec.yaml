@@ -1,0 +1,78 @@
+name: crisfiit
+description: "The equivalence food app from crisfiit"
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0
+
+environment:
+  sdk: ^3.11.1
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.2.2
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+  # icons used by the app for the different foods
+  lucide_icons: ^0.257.0
+  # chyper packet
+  sqflite_sqlcipher: ^3.4.0
+  path: ^1.8.3
+  #SQLite for win
+  sqflite_common_ffi: ^2.3.0
+
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_native_splash: ^2.4.7
+  flutter_launcher_icons: ^0.14.4
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^6.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # the assets used by the app
+  assets:
+    - assets/data/foods.json
+    - assets/images/logo_crisfiit_horizontal_light.png
+    - assets/images/logo_crisfiit_horizontal_dark.png
+    - assets/images/crisfiit_app_icon.png
+
+# adding app icon for android
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/crisfiit_app_icon.png"
+  adaptive_icon_foreground: "assets/images/adaptive_foreground.png"
+  adaptive_icon_background: "assets/images/adaptive_background.png"
+
+flutter_native_splash:
+  color: "#ffffff"
+  image: assets/images/splash_center_logo.png
+  android: true
+  ios: true
