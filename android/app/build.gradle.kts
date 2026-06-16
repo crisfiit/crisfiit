@@ -27,8 +27,8 @@ android {
         applicationId = "com.equivalencias.crisfiit"
         minSdk = flutter.minSdkVersion
         targetSdk = 36
-        versionCode = 3
-        versionName = "1.0.1"
+        versionCode = 4
+        versionName = "1.0.2"
     }
 
     compileOptions {
@@ -74,6 +74,5 @@ dependencies {
     // Firebase BoM
     implementation(platform("com.google.firebase:firebase-bom:34.10.0"))
 
-    // Firebase Analytics
-    implementation("com.google.firebase:firebase-analytics")
+
 }

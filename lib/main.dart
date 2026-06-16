@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'screens/home_screen.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_crashlytics/firebase_crashlytics.dart';
+import 'firebase_options.dart';
 import 'dart:async';
 import 'dart:ui';
 
@@ -9,7 +10,9 @@ Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
   // Inicializar Firebase
-  await Firebase.initializeApp();
+await Firebase.initializeApp(
+  options: DefaultFirebaseOptions.currentPlatform,
+);
 
   // Capturar errores de Flutter
   FlutterError.onError = FirebaseCrashlytics.instance.recordFlutterFatalError;
