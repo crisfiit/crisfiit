@@ -3,7 +3,7 @@ workflows:
     name: iOS AdHoc
 
     environment:
-      flutter: stable
+      flutter: 3.41.4
       ios_signing:
         distribution_type: ad_hoc
         bundle_identifier: com.equivalencias.crisfiit
@@ -21,7 +21,7 @@ workflows:
     name: iOS App Store
 
     environment:
-      flutter: stable
+      flutter: 3.41.4
       ios_signing:
         distribution_type: app_store
         bundle_identifier: com.equivalencias.crisfiit
