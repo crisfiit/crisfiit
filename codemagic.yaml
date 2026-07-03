@@ -1,0 +1,28 @@
+workflows:
+  ios-adhoc:
+    name: iOS AdHoc
+    max_build_duration: 60
+
+    environment:
+      flutter: stable
+
+    scripts:
+      - flutter pub get
+      - flutter build ipa --export-method ad-hoc
+
+    artifacts:
+      - build/ios/ipa/*.ipa
+
+  ios-appstore:
+    name: iOS App Store
+    max_build_duration: 60
+
+    environment:
+      flutter: stable
+
+    scripts:
+      - flutter pub get
+      - flutter build ipa --export-method app-store
+
+    artifacts:
+      - build/ios/ipa/*.ipa
