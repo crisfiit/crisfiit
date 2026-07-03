@@ -4,6 +4,7 @@ workflows:
 
     environment:
       flutter: 3.41.4
+
       ios_signing:
         distribution_type: ad_hoc
         bundle_identifier: com.equivalencias.crisfiit
@@ -11,7 +12,7 @@ workflows:
     scripts:
       - flutter pub get
       - xcode-project use-profiles
-      - flutter build ipa --release --export-method ad-hoc
+      - flutter build ipa --release --export-options-plist=/Users/builder/export_options.plist
 
     artifacts:
       - build/ios/ipa/*.ipa
@@ -22,6 +23,7 @@ workflows:
 
     environment:
       flutter: 3.41.4
+
       ios_signing:
         distribution_type: app_store
         bundle_identifier: com.equivalencias.crisfiit
@@ -29,7 +31,7 @@ workflows:
     scripts:
       - flutter pub get
       - xcode-project use-profiles
-      - flutter build ipa --release --export-method app-store
+      - flutter build ipa --release --export-options-plist=/Users/builder/export_options.plist
 
     artifacts:
       - build/ios/ipa/*.ipa
