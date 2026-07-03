@@ -1,0 +1,10 @@
+* text=auto
+
+*.dart text
+*.swift text
+*.plist text
+*.pbxproj text
+*.yaml text
+*.yml text
+*.json text
+*.xml text
