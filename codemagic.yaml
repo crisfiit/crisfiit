@@ -18,24 +18,28 @@ workflows:
       - build/ios/ipa/*.ipa
 
 
-  ios-appstore:
-    name: iOS App Store
+ios-appstore:
+  name: iOS App Store
 
-    environment:
-      flutter: 3.41.4
+  integrations:
+    app_store_connect: Crisfiit Codemagic
 
-      ios_signing:
-        distribution_type: app_store
-        bundle_identifier: com.equivalencias.crisfiit
+  environment:
+    flutter: 3.41.4
 
-    scripts:
-      - flutter pub get
-      - xcode-project use-profiles
-      - flutter build ipa --release --export-options-plist=/Users/builder/export_options.plist
+    ios_signing:
+      distribution_type: app_store
+      bundle_identifier: com.equivalencias.crisfiit
 
-    artifacts:
-      - build/ios/ipa/*.ipa
+  scripts:
+    - flutter pub get
+    - xcode-project use-profiles
+    - flutter build ipa --release --export-options-plist=/Users/builder/export_options.plist
 
-    publishing:
-      app_store_connect:
-        auth: integration
+  artifacts:
+    - build/ios/ipa/*.ipa
+
+  publishing:
+    app_store_connect:
+      auth: integration
+      submit_to_testflight: false
