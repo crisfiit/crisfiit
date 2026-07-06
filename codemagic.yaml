@@ -1,4 +1,5 @@
 workflows:
+
   ios-adhoc:
     name: iOS AdHoc
 
@@ -18,28 +19,28 @@ workflows:
       - build/ios/ipa/*.ipa
 
 
-ios-appstore:
-  name: iOS App Store
+  ios-appstore:
+    name: iOS App Store
 
-  integrations:
-    app_store_connect: Crisfiit Codemagic
+    integrations:
+      app_store_connect: Crisfiit Codemagic
 
-  environment:
-    flutter: 3.41.4
+    environment:
+      flutter: 3.41.4
 
-    ios_signing:
-      distribution_type: app_store
-      bundle_identifier: com.equivalencias.crisfiit
+      ios_signing:
+        distribution_type: app_store
+        bundle_identifier: com.equivalencias.crisfiit
 
-  scripts:
-    - flutter pub get
-    - xcode-project use-profiles
-    - flutter build ipa --release --export-options-plist=/Users/builder/export_options.plist
+    scripts:
+      - flutter pub get
+      - xcode-project use-profiles
+      - flutter build ipa --release --export-options-plist=/Users/builder/export_options.plist
 
-  artifacts:
-    - build/ios/ipa/*.ipa
+    artifacts:
+      - build/ios/ipa/*.ipa
 
-  publishing:
-    app_store_connect:
-      auth: integration
-      submit_to_testflight: false
+    publishing:
+      app_store_connect:
+        auth: integration
+        submit_to_testflight: false
