@@ -65,11 +65,14 @@ flutter:
     - assets/images/logo_crisfiit_horizontal_dark.png
     - assets/images/crisfiit_app_icon.png
 
-# adding app icon for android
+# adding app icon for android and ios
 flutter_launcher_icons:
   android: true
+  image_path_android: "assets/images/crisfiit_app_icon.png"
+
   ios: true
-  image_path: "assets/images/crisfiit_app_icon.png"
+  image_path_ios: "assets/images/crisfiit_app_icon_ios.png"
+
   adaptive_icon_foreground: "assets/images/adaptive_foreground.png"
   adaptive_icon_background: "assets/images/adaptive_background.png"
 
