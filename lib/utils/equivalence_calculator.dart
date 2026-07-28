@@ -29,6 +29,7 @@ class PortionCalculator {
 
       case "hidratos":
       case "frutas":
+      case "verduras":
         return const FoodPortions(hc: 1, pr: 0, gr: 0);
 
       case "legumbres":
@@ -46,7 +47,6 @@ class PortionCalculator {
       case "grasas":
         return const FoodPortions(hc: 0, pr: 0, gr: 1);
 
-      case "verduras":
       case "azucares":
         return const FoodPortions(hc: 0.5, pr: 0, gr: 0);
 

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:lucide_icons/lucide_icons.dart';
+import 'package:lucide_flutter/lucide_flutter.dart';
 
 Icon getCategoryIcon(String category) {
 
@@ -34,6 +34,9 @@ Icon getCategoryIcon(String category) {
 
     case "pescado_grasa_alta":
       return const Icon(LucideIcons.fish, size: 20);
+
+    case "marisco":
+      return const Icon(LucideIcons.shrimp, size: 20);
 
     case "huevo_magro":
       return const Icon(LucideIcons.egg, size: 20);
