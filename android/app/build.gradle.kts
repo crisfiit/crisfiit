@@ -27,8 +27,8 @@ android {
         applicationId = "com.equivalencias.crisfiit"
         minSdk = flutter.minSdkVersion
         targetSdk = 36
-        versionCode = 8
-        versionName = "1.0.6"
+        versionCode = 9
+        versionName = "1.0.7"
     }
 
     compileOptions {
