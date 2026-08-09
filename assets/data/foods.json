@@ -1,485 +1,3196 @@
 {
-  "foods":[
-
-{"name":"Arroz blanco crudo","grams":30,"category":"arroz","group":"hidratos"},
-{"name":"Arroz blanco cocido","grams":120,"category":"arroz","group":"hidratos"},
-{"name":"Arroz redondo","grams":30,"category":"arroz","group":"hidratos"},
-{"name":"Arroz largo","grams":30,"category":"arroz","group":"hidratos"},
-{"name":"Arroz vaporizado","grams":30,"category":"arroz","group":"hidratos"},
-{"name":"Arroz precocido","grams":30,"category":"arroz","group":"hidratos"},
-{"name":"Arroz hinchado enriquecido","grams":30,"category":"arroz","group":"hidratos"},
-{"name":"Arroz integral crudo","grams":30,"category":"arroz","group":"hidratos"},
-{"name":"Arroz integral cocido","grams":130,"category":"arroz","group":"hidratos"},
-{"name":"Arroz integral vaporizado","grams":30,"category":"arroz","group":"hidratos"},
-{"name":"Arroz basmati crudo","grams":30,"category":"arroz","group":"hidratos"},
-{"name":"Arroz basmati cocido","grams":120,"category":"arroz","group":"hidratos"},
-{"name":"Arroz thai","grams":30,"category":"arroz","group":"hidratos"},
-{"name":"Arroz jazmín crudo","grams":30,"category":"arroz","group":"hidratos"},
-{"name":"Arroz jazmín cocido","grams":120,"category":"arroz","group":"hidratos"},
-{"name":"Arroz bomba","grams":30,"category":"arroz","group":"hidratos"},
-{"name":"Arroz arborio","grams":30,"category":"arroz","group":"hidratos"},
-{"name":"Arroz carnaroli","grams":30,"category":"arroz","group":"hidratos"},
-{"name":"Arroz valenciano","grams":30,"category":"arroz","group":"hidratos"},
-{"name":"Arroz negro","grams":30,"category":"arroz","group":"hidratos"},
-{"name":"Arroz rojo","grams":30,"category":"arroz","group":"hidratos"},
-{"name":"Arroz salvaje","grams":30,"category":"arroz","group":"hidratos"},
-{"name":"Mezcla arroz blanco e integral","grams":30,"category":"arroz","group":"hidratos"},
-{"name":"Mezcla arroces gourmet","grams":30,"category":"arroz","group":"hidratos"},
-{"name":"Copos de maíz","grams":17,"category":"cereales_desayuno","group":"hidratos"},
-{"name":"Copos de trigo","grams":18,"category":"cereales_desayuno","group":"hidratos"},
-{"name":"Copos de arroz","grams":17,"category":"cereales_desayuno","group":"hidratos"},
-{"name":"Copos de espelta","grams":20,"category":"cereales_desayuno","group":"hidratos"},
-{"name":"Copos de centeno","grams":21,"category":"cereales_desayuno","group":"hidratos"},
-{"name":"Arroz inflado","grams":16,"category":"cereales_desayuno","group":"hidratos"},
-{"name":"Trigo inflado","grams":18,"category":"cereales_desayuno","group":"hidratos"},
-{"name":"Espelta inflada","grams":20,"category":"cereales_desayuno","group":"hidratos"},
-{"name":"Mijo inflado","grams":19,"category":"cereales_desayuno","group":"hidratos"},
-{"name":"Quinoa inflada","grams":21,"category":"cereales_desayuno","group":"hidratos"},
-{"name":"Amaranto inflado","grams":21,"category":"cereales_desayuno","group":"hidratos"},
-{"name":"Muesli natural","grams":22,"category":"cereales_desayuno","group":"hidratos"},
-{"name":"Muesli con frutos secos","grams":25,"category":"cereales_desayuno","group":"hidratos"},
-{"name":"Muesli con fruta desecada","grams":21,"category":"cereales_desayuno","group":"hidratos"},
-{"name":"Granola natural","grams":24,"category":"cereales_desayuno","group":"hidratos"},
-{"name":"Granola con chocolate","grams":23,"category":"cereales_desayuno","group":"hidratos"},
-{"name":"Cereales con chocolate","grams":19,"category":"cereales_desayuno","group":"hidratos"},
-{"name":"Cereales rellenos con chocolate","grams":20,"category":"cereales_desayuno","group":"hidratos"},
-{"name":"Cereales con miel","grams":18,"category":"cereales_desayuno","group":"hidratos"},
-{"name":"Aros de cereales","grams":18,"category":"cereales_desayuno","group":"hidratos"},
-{"name":"Almohadillas rellenas","grams":21,"category":"cereales_desayuno","group":"hidratos"},
-{"name":"Bolitas de maíz chocolateadas","grams":19,"category":"cereales_desayuno","group":"hidratos"},
-{"name":"Copos glaseados","grams":17,"category":"cereales_desayuno","group":"hidratos"},
-{"name":"Cereales infantiles 8 cereales","grams":18,"category":"cereales_desayuno","group":"hidratos"},
-{"name":"Papilla de arroz","grams":18,"category":"cereales_desayuno","group":"hidratos"},
-{"name":"Papilla multicereales","grams":19,"category":"cereales_desayuno","group":"hidratos"},
-
-{"name":"Avena en copos","grams":23,"category":"cereales","group":"hidratos"},
-{"name":"Avena instantánea","grams":23,"category":"cereales","group":"hidratos"},
-{"name":"Salvado de avena","grams":30,"category":"cereales","group":"hidratos"},
-{"name":"Quinoa cruda","grams":22,"category":"cereales","group":"hidratos"},
-{"name":"Quinoa cocida","grams":66,"category":"cereales","group":"hidratos"},
-{"name":"Bulgur crudo","grams":18,"category":"cereales","group":"hidratos"},
-{"name":"Bulgur cocido","grams":76,"category":"cereales","group":"hidratos"},
-{"name":"Cuscús crudo","grams":18,"category":"cereales","group":"hidratos"},
-{"name":"Cuscús cocido","grams":61,"category":"cereales","group":"hidratos"},
-{"name":"Mijo crudo","grams":19,"category":"cereales","group":"hidratos"},
-{"name":"Mijo cocido","grams":58,"category":"cereales","group":"hidratos"},
-{"name":"Amaranto crudo","grams":21,"category":"cereales","group":"hidratos"},
-{"name":"Amaranto cocido","grams":74,"category":"cereales","group":"hidratos"},
-{"name":"Trigo sarraceno crudo","grams":20,"category":"cereales","group":"hidratos"},
-{"name":"Trigo sarraceno cocido","grams":70,"category":"cereales","group":"hidratos"},
-{"name":"Cebada perlada cruda","grams":19,"category":"cereales","group":"hidratos"},
-{"name":"Cebada perlada cocida","grams":50,"category":"cereales","group":"hidratos"},
-{"name":"Espelta grano crudo","grams":20,"category":"cereales","group":"hidratos"},
-{"name":"Espelta cocida","grams":54,"category":"cereales","group":"hidratos"},
-{"name":"Centeno grano crudo","grams":20,"category":"cereales","group":"hidratos"},
-{"name":"Centeno grano cocido","grams":58,"category":"cereales","group":"hidratos"},
-{"name":"Trigo en grano","grams":20,"category":"cereales","group":"hidratos"},
-{"name":"Trigo cocido","grams":56,"category":"cereales","group":"hidratos"},
-{"name":"Kamut crudo","grams":20,"category":"cereales","group":"hidratos"},
-{"name":"Kamut cocido","grams":58,"category":"cereales","group":"hidratos"},
-{"name":"Freekeh crudo","grams":20,"category":"cereales","group":"hidratos"},
-{"name":"Freekeh cocido","grams":56,"category":"cereales","group":"hidratos"},
-{"name":"Teff crudo","grams":19,"category":"cereales","group":"hidratos"},
-{"name":"Teff cocido","grams":70,"category":"cereales","group":"hidratos"},
-{"name":"Sorgo crudo","grams":19,"category":"cereales","group":"hidratos"},
-{"name":"Sorgo cocido","grams":52,"category":"cereales","group":"hidratos"},
-{"name":"Fonio crudo","grams":19,"category":"cereales","group":"hidratos"},
-{"name":"Fonio cocido","grams":64,"category":"cereales","group":"hidratos"},
-
-{"name":"Harina trigo","grams":18,"category":"harinas_semolas","group":"hidratos"},
-{"name":"Harina trigo integral","grams":21,"category":"harinas_semolas","group":"hidratos"},
-{"name":"Harina de fuerza","grams":19,"category":"harinas_semolas","group":"hidratos"},
-{"name":"Harina de espelta","grams":21,"category":"harinas_semolas","group":"hidratos"},
-{"name":"Harina de centeno","grams":20,"category":"harinas_semolas","group":"hidratos"},
-{"name":"Harina de avena","grams":23,"category":"harinas_semolas","group":"hidratos"},
-{"name":"Harina de arroz","grams":18,"category":"harinas_semolas","group":"hidratos"},
-{"name":"Harina de maíz","grams":18,"category":"harinas_semolas","group":"hidratos"},
-{"name":"Harina de trigo sarraceno","grams":20,"category":"harinas_semolas","group":"hidratos"},
-{"name":"Harina de quinoa","grams":22,"category":"harinas_semolas","group":"hidratos"},
-{"name":"Harina de garbanzo","grams":24,"category":"harinas_semolas","group":"hidratos"},
-{"name":"Harina de almendra","grams":70,"category":"harinas_semolas","group":"hidratos"},
-{"name":"Harina de coco","grams":58,"category":"harinas_semolas","group":"hidratos"},
-{"name":"Maicena","grams":15,"category":"harinas_semolas","group":"hidratos"},
-{"name":"Fécula de patata","grams":17,"category":"harinas_semolas","group":"hidratos"},
-{"name":"Tapioca","grams":16,"category":"harinas_semolas","group":"hidratos"},
-{"name":"Sémola de trigo","grams":19,"category":"harinas_semolas","group":"hidratos"},
-{"name":"Sémola integral","grams":21,"category":"harinas_semolas","group":"hidratos"},
-{"name":"Polenta seca","grams":18,"category":"harinas_semolas","group":"hidratos"},
-{"name":"Polenta cocida","grams":88,"category":"harinas_semolas","group":"hidratos"},
-
-{"name":"Pan blanco","grams":27,"category":"pan","group":"hidratos"},
-{"name":"Pan integral","grams":31,"category":"pan","group":"hidratos"},
-{"name":"Pan multicereal","grams":32,"category":"pan","group":"hidratos"},
-{"name":"Pan de centeno","grams":31,"category":"pan","group":"hidratos"},
-{"name":"Pan de espelta","grams":31,"category":"pan","group":"hidratos"},
-{"name":"Pan de trigo sarraceno","grams":33,"category":"pan","group":"hidratos"},
-{"name":"Pan de masa madre blanco","grams":28,"category":"pan","group":"hidratos"},
-{"name":"Pan de masa madre integral","grams":33,"category":"pan","group":"hidratos"},
-{"name":"Pan de molde blanco","grams":30,"category":"pan","group":"hidratos"},
-{"name":"Pan de molde integral","grams":33,"category":"pan","group":"hidratos"},
-{"name":"Pan de molde sin corteza","grams":29,"category":"pan","group":"hidratos"},
-{"name":"Pan de hamburguesa","grams":30,"category":"pan","group":"hidratos"},
-{"name":"Pan de perrito caliente","grams":30,"category":"pan","group":"hidratos"},
-{"name":"Pan pita","grams":26,"category":"pan","group":"hidratos"},
-{"name":"Pan naan","grams":29,"category":"pan","group":"hidratos"},
-{"name":"Pan lavash","grams":25,"category":"pan","group":"hidratos"},
-{"name":"Focaccia","grams":31,"category":"pan","group":"hidratos"},
-{"name":"Ciabatta","grams":28,"category":"pan","group":"hidratos"},
-{"name":"Mollete","grams":29,"category":"pan","group":"hidratos"},
-{"name":"Pan gallego","grams":28,"category":"pan","group":"hidratos"},
-{"name":"Pan payés","grams":28,"category":"pan","group":"hidratos"},
-{"name":"Pan sueco","grams":20,"category":"pan","group":"hidratos"},
-{"name":"Knäckebröd","grams":21,"category":"pan","group":"hidratos"},
-{"name":"Biscotes","grams":20,"category":"pan","group":"hidratos"},
-{"name":"Picos","grams":20,"category":"pan","group":"hidratos"},
-{"name":"Regañás","grams":20,"category":"pan","group":"hidratos"},
-{"name":"Colines","grams":20,"category":"pan","group":"hidratos"},
-{"name":"Grissini","grams":20,"category":"pan","group":"hidratos"},
-
-{"name":"Pasta seca","grams":19,"category":"pasta","group":"hidratos"},
-{"name":"Pasta cocida","grams":45,"category":"pasta","group":"hidratos"},
-{"name":"Pasta integral seca","grams":22,"category":"pasta","group":"hidratos"},
-{"name":"Pasta integral cocida","grams":50,"category":"pasta","group":"hidratos"},
-{"name":"Pasta de espelta","grams":21,"category":"pasta","group":"hidratos"},
-{"name":"Pasta de kamut","grams":21,"category":"pasta","group":"hidratos"},
-{"name":"Pasta trigo sarraceno","grams":20,"category":"pasta","group":"hidratos"},
-{"name":"Pasta de arroz","grams":18,"category":"pasta","group":"hidratos"},
-{"name":"Pasta de maíz","grams":19,"category":"pasta","group":"hidratos"},
-{"name":"Pasta sin gluten","grams":18,"category":"pasta","group":"hidratos"},
-{"name":"Pasta fresca","grams":30,"category":"pasta","group":"hidratos"},
-{"name":"Pasta fresca","grams":30,"category":"pasta","group":"hidratos"},
-{"name":"Pasta fresca integral","grams":33,"category":"pasta","group":"hidratos"},
-{"name":"Ñoquis de patata","grams":47,"category":"tuberculos","group":"hidratos"},
-{"name":"Raviolis frescos","grams":44,"category":"pasta","group":"hidratos"},
-{"name":"Tortellini frescos","grams":45,"category":"pasta","group":"hidratos"},
-{"name":"Tortelloni","grams":47,"category":"pasta","group":"hidratos"},
-{"name":"Fideos de arroz secos","grams":18,"category":"pasta","group":"hidratos"},
-{"name":"Fideos de arroz cocidos","grams":54,"category":"pasta","group":"hidratos"},
-{"name":"Udon frescos","grams":50,"category":"pasta","group":"hidratos"},
-{"name":"Soba","grams":21,"category":"pasta","group":"hidratos"},
-{"name":"Vermicelli de arroz","grams":18,"category":"pasta","group":"hidratos"},
-{"name":"Fideos ramen frescos","grams":47,"category":"pasta","group":"hidratos"},
-{"name":"Fideos de huevo","grams":18,"category":"pasta","group":"hidratos"},
-
-{"name":"Patata cruda","grams":81,"category":"tuberculos","group":"hidratos"},
-{"name":"Patata cocida","grams":91,"category":"tuberculos","group":"hidratos"},
-{"name":"Patata al vapor","grams":88,"category":"tuberculos","group":"hidratos"},
-{"name":"Patata asada","grams":67,"category":"tuberculos","group":"hidratos"},
-{"name":"Patata en airfryer","grams":64,"category":"tuberculos","group":"hidratos"},
-{"name":"Puré de patata casero","grams":85,"category":"tuberculos","group":"hidratos"},
-{"name":"Boniato crudo","grams":70,"category":"tuberculos","group":"hidratos"},
-{"name":"Boniato cocido","grams":85,"category":"tuberculos","group":"hidratos"},
-{"name":"Boniato asado","grams":58,"category":"tuberculos","group":"hidratos"},
-{"name":"Yuca cruda","grams":37,"category":"tuberculos","group":"hidratos"},
-{"name":"Yuca cocida","grams":50,"category":"tuberculos","group":"hidratos"},
-{"name":"Ñame crudo","grams":51,"category":"tuberculos","group":"hidratos"},
-{"name":"Ñame cocido","grams":60,"category":"tuberculos","group":"hidratos"},
-{"name":"Taro crudo","grams":40,"category":"tuberculos","group":"hidratos"},
-{"name":"Taro cocido","grams":54,"category":"tuberculos","group":"hidratos"},
-{"name":"Malanga cruda","grams":41,"category":"tuberculos","group":"hidratos"},
-{"name":"Malanga cocida","grams":54,"category":"tuberculos","group":"hidratos"},
-{"name":"Oca andina","grams":76,"category":"tuberculos","group":"hidratos"},
-{"name":"Mashua","grams":88,"category":"tuberculos","group":"hidratos"},
-{"name":"Arracacha","grams":54,"category":"tuberculos","group":"hidratos"},
-
-{"name":"Tortitas de arroz","grams":20,"category":"hidratos","group":"hidratos"},
-{"name":"Tortitas de maíz","grams":20,"category":"hidratos","group":"hidratos"},
-{"name":"Crema de arroz","grams":25,"category":"hidratos","group":"hidratos"},
-{"name":"Maíz hervido lata","grams":80,"category":"hidratos","group":"hidratos"},
-{"name":"Palomitas sin aceite ni sal","grams":20,"category":"hidratos","group":"hidratos"},
-{"name":"Copos de puré patata sin leche","grams":18,"category":"tuberculos","group":"hidratos"},
-{"name":"Tortillas mejicanas de maíz o integral","grams":30,"category":"hidratos","group":"hidratos"},
-{"name":"Biscote de pan tipo Wasa","grams":20,"category":"hidratos","group":"hidratos"},
-{"name":"Castaña","grams":40,"category":"frutos_secos","group":"hidratos"},
-{"name":"Bebida de avena o arroz","grams":150,"category":"hidratos","group":"hidratos"},
-
-{"name":"Alubias blancas cocidas","grams":69,"category":"legumbre","group":"legumbres"},
-{"name":"Alubias rojas cocidas","grams":61,"category":"legumbre","group":"legumbres"},
-{"name":"Alubias negras cocidas","grams":59,"category":"legumbre","group":"legumbres"},
-{"name":"Garbanzos cocidos","grams":51,"category":"legumbre","group":"legumbres"},
-{"name":"Lentejas cocidas","grams":70,"category":"legumbre","group":"legumbres"},
-{"name":"Judías pintas cocidas","grams":53,"category":"legumbre","group":"legumbres"},
-{"name":"Soja cocida","grams":167,"category":"legumbre","group":"legumbres"},
-{"name":"Habas cocidas","grams":75,"category":"legumbre","group":"legumbres"},
-{"name":"Edamame","grams":90,"category":"legumbre","group":"legumbres"},
-{"name":"Guisantes cocidos","grams":90,"category":"legumbre","group":"legumbres"},
-{"name":"Altramuz cocido","grams":141,"category":"legumbre","group":"legumbres"},
-{"name":"Pasta de lenteja","grams":23,"category":"legumbre","group":"legumbres"},
-{"name":"Pasta de garbanzo","grams":24,"category":"legumbre","group":"legumbres"},
-{"name":"Pasta de guisante","grams":23,"category":"legumbre","group":"legumbres"},
-{"name":"Shaken Banana YÜIT","grams":30,"category":"legumbre","group":"legumbres"},
-{"name":"Pumpkin Coffee YÜIT","grams":30,"category":"legumbre","group":"legumbres"},
-
-{"name":"Claras de huevo líquidas","grams":210,"category":"huevo_magro","group":"proteina_magra"},
-{"name":"Bacalao","grams":125,"category":"pescado_magro","group":"proteina_magra"},
-{"name":"Merluza","grams":125,"category":"pescado_magro","group":"proteina_magra"},
-{"name":"Pescadilla","grams":125,"category":"pescado_magro","group":"proteina_magra"},
-{"name":"Lenguado","grams":125,"category":"pescado_magro","group":"proteina_magra"},
-{"name":"Gallo","grams":125,"category":"pescado_magro","group":"proteina_magra"},
-{"name":"Abadejo","grams":125,"category":"pescado_magro","group":"proteina_magra"},
-{"name":"Rosada","grams":125,"category":"pescado_magro","group":"proteina_magra"},
-{"name":"Fogonero","grams":125,"category":"pescado_magro","group":"proteina_magra"},
-{"name":"Mero","grams":125,"category":"pescado_magro","group":"proteina_magra"},
-{"name":"Rape","grams":125,"category":"pescado_magro","group":"proteina_magra"},
-{"name":"Lubina","grams":125,"category":"pescado_magro","group":"proteina_magra"},
-{"name":"Dorada","grams":125,"category":"pescado_magro","group":"proteina_magra"},
-{"name":"Corvina","grams":125,"category":"pescado_magro","group":"proteina_magra"},
-{"name":"Cabracho","grams":130,"category":"pescado_magro","group":"proteina_magra"},
-{"name":"Rodaballo","grams":135,"category":"pescado_magro","group":"proteina_magra"},
-{"name":"Sepia","grams":125,"category":"marisco","group":"proteina_magra"},
-{"name":"Calamar","grams":125,"category":"marisco","group":"proteina_magra"},
-{"name":"Chipirones","grams":125,"category":"marisco","group":"proteina_magra"},
-{"name":"Pulpo","grams":125,"category":"marisco","group":"proteina_magra"},
-{"name":"Gambas","grams":120,"category":"marisco","group":"proteina_magra"},
-{"name":"Langostinos","grams":120,"category":"marisco","group":"proteina_magra"},
-{"name":"Cigalas","grams":125,"category":"marisco","group":"proteina_magra"},
-{"name":"Bogavante","grams":130,"category":"marisco","group":"proteina_magra"},
-{"name":"Langosta","grams":130,"category":"marisco","group":"proteina_magra"},
-{"name":"Mejillones","grams":170,"category":"marisco","group":"proteina_magra"},
-{"name":"Almejas","grams":170,"category":"marisco","group":"proteina_magra"},
-{"name":"Berberechos","grams":170,"category":"marisco","group":"proteina_magra"},
-{"name":"Vieira","grams":140,"category":"marisco","group":"proteina_magra"},
-{"name":"Pechuga de pollo","grams":105,"category":"carne_magra","group":"proteina_magra"},
-{"name":"Pechuga de pavo","grams":105,"category":"carne_magra","group":"proteina_magra"},
-{"name":"Solomillo de pavo","grams":105,"category":"carne_magra","group":"proteina_magra"},
-{"name":"Jamón cocido extra (>90% carne)","grams":115,"category":"carne_magra","group":"proteina_magra"},
-{"name":"Fiambre de pavo 95%","grams":115,"category":"carne_magra","group":"proteina_magra"},
-{"name":"Conejo","grams":115,"category":"carne_magra","group":"proteina_magra"},
-{"name":"Avestruz","grams":110,"category":"carne_magra","group":"proteina_magra"},
-{"name":"Solomillo de cerdo","grams":110,"category":"carne_magra","group":"proteina_magra"},
-{"name":"Lomo de cerdo desgrasado","grams":115,"category":"carne_magra","group":"proteina_magra"},
-{"name":"Ternera muy magra (babilla, tapa, cadera)","grams":115,"category":"carne_magra","group":"proteina_magra"},
-{"name":"Potro","grams":110,"category":"carne_magra","group":"proteina_magra"},
-{"name":"Bisonte","grams":110,"category":"carne_magra","group":"proteina_magra"},
-{"name":"Atún al natural escurrido","grams":100,"category":"otros","group":"proteina_magra"},
-{"name":"Bonito al natural escurrido","grams":100,"category":"otros","group":"proteina_magra"},
-{"name":"Caballa al natural escurrida","grams":110,"category":"otros","group":"proteina_magra"},
-{"name":"Pechuga de pollo al natural","grams":105,"category":"otros","group":"proteina_magra"},
-{"name":"Queso fresco batido 0%","grams":275,"category":"lacteo_magro","group":"proteina_magra"},
-{"name":"Skyr natural","grams":200,"category":"lacteo_magro","group":"proteina_magra"},
-{"name":"Yogur alto en proteínas","grams":200,"category":"lacteo_magro","group":"proteina_magra"},
-{"name":"Yogur griego 0% alto en proteínas","grams":200,"category":"lacteo_magro","group":"proteina_magra"},
-{"name":"Quark 0%","grams":210,"category":"lacteo_magro","group":"proteina_magra"},
-{"name":"Cottage bajo en grasa","grams":250,"category":"lacteo_magro","group":"proteina_magra"},
-{"name":"Requesón 0–2% MG","grams":220,"category":"lacteo_magro","group":"proteina_magra"},
-{"name":"Proteína Whey Isolate","grams":25,"category":"otros","group":"proteina_magra"},
-{"name":"Proteína Whey Concentrate","grams":28,"category":"otros","group":"proteina_magra"},
-{"name":"Caseína","grams":28,"category":"otros","group":"proteina_magra"},
-{"name":"Proteína de clara","grams":26,"category":"otros","group":"proteina_magra"},
-{"name":"Proteína de soja aislada","grams":25,"category":"otros","group":"proteina_magra"},
-{"name":"Proteína de guisante","grams":28,"category":"otros","group":"proteina_magra"},
-
-{"name":"Huevo entero","grams":120,"category":"huevo_grasa","group":"proteina_grasa_media"},
-{"name":"Atún fresco","grams":115,"category":"pescado_grasa_alta","group":"proteina_grasa_media"},
-{"name":"Bonito fresco","grams":115,"category":"pescado_grasa_media","group":"proteina_grasa_media"},
-{"name":"Trucha","grams":125,"category":"pescado_grasa_media","group":"proteina_grasa_media"},
-{"name":"Salmón ahumado","grams":110,"category":"pescado_grasa_alta","group":"proteina_grasa_media"},
-{"name":"Lomo de cerdo","grams":110,"category":"carne_grasa_media","group":"proteina_grasa_media"},
-{"name":"Cinta de lomo","grams":110,"category":"carne_grasa_media","group":"proteina_grasa_media"},
-{"name":"Jamón serrano (magro)","grams":90,"category":"carne_grasa_media","group":"proteina_grasa_media"},
-{"name":"Cecina","grams":95,"category":"carne_grasa_media","group":"proteina_grasa_media"},
-{"name":"Roast beef","grams":105,"category":"carne_grasa_media","group":"proteina_grasa_media"},
-{"name":"Solomillo de ternera","grams":115,"category":"carne_grasa_media","group":"proteina_grasa_media"},
-{"name":"Vacuno 5% MG","grams":110,"category":"carne_grasa_media","group":"proteina_grasa_media"},
-{"name":"Carne picada de pollo 5% MG","grams":105,"category":"carne_grasa_media","group":"proteina_grasa_media"},
-{"name":"Carne picada de pavo 5% MG","grams":105,"category":"carne_grasa_media","group":"proteina_grasa_media"},
-{"name":"Muslo de pollo sin piel","grams":115,"category":"carne_grasa_media","group":"proteina_grasa_media"},
-{"name":"Muslo de pavo sin piel","grams":115,"category":"carne_grasa_media","group":"proteina_grasa_media"},
-{"name":"Contramuslo de pollo sin piel","grams":115,"category":"carne_grasa_media","group":"proteina_grasa_media"},
-{"name":"Queso cottage 5% MG","grams":250,"category":"lacteos","group":"proteina_grasa_media"},
-{"name":"Ricotta light","grams":200,"category":"lacteos","group":"proteina_grasa_media"},
-{"name":"Mozzarella light","grams":150,"category":"lacteos","group":"proteina_grasa_media"},
-{"name":"Queso fresco de Burgos semidesnatado","grams":200,"category":"lacteos","group":"proteina_grasa_media"},
-{"name":"Tofu firme","grams":260,"category":"otros","group":"proteina_grasa_media"},
-{"name":"Edamame","grams":200,"category":"legumbre","group":"proteina_grasa_media"},
-
-{"name":"Salmón fresco","grams":110,"category":"pescado_grasa_alta","group":"proteina_grasa_alta"},
-{"name":"Salmón congelado","grams":110,"category":"pescado_grasa_alta","group":"proteina_grasa_alta"},
-{"name":"Caballa fresca","grams":105,"category":"pescado_grasa_alta","group":"proteina_grasa_alta"},
-{"name":"Sardinas","grams":110,"category":"pescado_grasa_alta","group":"proteina_grasa_alta"},
-{"name":"Boquerones","grams":120,"category":"pescado_grasa_media","group":"proteina_grasa_alta"},
-{"name":"Arenque","grams":110,"category":"pescado_grasa_alta","group":"proteina_grasa_alta"},
-{"name":"Anguila","grams":120,"category":"pescado_grasa_alta","group":"proteina_grasa_alta"},
-{"name":"Atún en aceite escurrido","grams":100,"category":"pescado_grasa_alta","group":"proteina_grasa_alta"},
-{"name":"Caballa en aceite escurrida","grams":100,"category":"pescado_grasa_alta","group":"proteina_grasa_alta"},
-{"name":"Sardinas en aceite escurridas","grams":100,"category":"pescado_grasa_alta","group":"proteina_grasa_alta"},
-{"name":"Tempeh","grams":115,"category":"otros","group":"proteina_grasa_alta"},
-{"name":"Tofu ahumado","grams":180,"category":"otros","group":"proteina_grasa_alta"},
-{"name":"Queso semicurado","grams":90,"category":"lacteos","group":"proteina_grasa_alta"},
-{"name":"Queso curado","grams":85,"category":"lacteos","group":"proteina_grasa_alta"},
-{"name":"Queso manchego","grams":85,"category":"lacteos","group":"proteina_grasa_alta"},
-{"name":"Parmesano","grams":80,"category":"lacteos","group":"proteina_grasa_alta"},
-{"name":"Emmental","grams":85,"category":"lacteos","group":"proteina_grasa_alta"},
-{"name":"Cheddar","grams":85,"category":"lacteos","group":"proteina_grasa_alta"},
-{"name":"Mozzarella entera","grams":120,"category":"lacteos","group":"proteina_grasa_alta"},
-{"name":"Queso de cabra","grams":95,"category":"lacteos","group":"proteina_grasa_alta"},
-{"name":"Jamón serrano graso","grams":95,"category":"carne_grasa_alta","group":"proteina_grasa_alta"},
-{"name":"Panceta","grams":100,"category":"carne_grasa_alta","group":"proteina_grasa_alta"},
-{"name":"Bacon","grams":100,"category":"carne_grasa_alta","group":"proteina_grasa_alta"},
-{"name":"Costilla de cerdo","grams":130,"category":"carne_grasa_alta","group":"proteina_grasa_alta"},
-{"name":"Chuletas de cordero","grams":120,"category":"carne_grasa_alta","group":"proteina_grasa_alta"},
-{"name":"Chuletas de cerdo","grams":120,"category":"carne_grasa_alta","group":"proteina_grasa_alta"},
-{"name":"Entrecot de vacuno","grams":120,"category":"carne_grasa_alta","group":"proteina_grasa_alta"},
-{"name":"Carne picada vacuno 15% MG","grams":120,"category":"carne_grasa_alta","group":"proteina_grasa_alta"},
-
-{"name":"Aceite de oliva","grams":10,"category":"grasa","group":"grasas"},
-{"name":"Aceite de coco","grams":10,"category":"grasa","group":"grasas"},
-{"name":"Aceite de linaza","grams":10,"category":"grasa","group":"grasas"},
-{"name":"Aceitunas verdes","grams":65,"category":"grasa","group":"grasas"},
-{"name":"Aceitunas negras","grams":92,"category":"grasa","group":"grasas"},
-{"name":"Aceitunas rellenas","grams":63,"category":"grasa","group":"grasas"},
-{"name":"Aguacate","grams":68,"category":"grasa","group":"grasas"},
-{"name":"Guacamole","grams":66,"category":"grasa","group":"grasas"},
-{"name":"Nueces","grams":15,"category":"frutos_secos","group":"grasas"},
-{"name":"Nuez pecana","grams":14,"category":"frutos_secos","group":"grasas"},
-{"name":"Nuez Macadamia","grams":13,"category":"frutos_secos","group":"grasas"},
-{"name":"Nuez de Brasil","grams":15,"category":"frutos_secos","group":"grasas"},
-{"name":"Piñones","grams":15,"category":"frutos_secos","group":"grasas"},
-{"name":"Almendras naturales o tostadas sin sal","grams":20,"category":"frutos_secos","group":"grasas"},
-{"name":"Avellanas naturales o tostadas sin sal","grams":16,"category":"frutos_secos","group":"grasas"},
-{"name":"Cacahuetes naturales o tostados sin sal","grams":20,"category":"frutos_secos","group":"grasas"},
-{"name":"Pistachos naturales o tostados sin sal","grams":22,"category":"frutos_secos","group":"grasas"},
-{"name":"Anacardo","grams":23,"category":"frutos_secos","group":"grasas"},
-{"name":"Coco fresco","grams":30,"category":"grasa","group":"grasas"},
-{"name":"Coco seco rallado","grams":15,"category":"grasa","group":"grasas"},
-{"name":"Mantequilla","grams":10,"category":"grasa","group":"grasas"},
-{"name":"Crema de cacahuete","grams":20,"category":"grasa","group":"grasas"},
-{"name":"Crema de almendra","grams":18,"category":"grasa","group":"grasas"},
-{"name":"Tahini","grams":19,"category":"grasa","group":"grasas"},
-{"name":"Crema de anacardo","grams":20,"category":"grasa","group":"grasas"},
-{"name":"Crema de avellana","grams":16,"category":"grasa","group":"grasas"},
-{"name":"Crema de pistacho","grams":22,"category":"grasa","group":"grasas"},
-{"name":"Semillas de cáñamo","grams":20,"category":"grasa","group":"grasas"},
-{"name":"Semillas de chía","grams":33,"category":"grasa","group":"grasas"},
-{"name":"Semillas de lino","grams":24,"category":"grasa","group":"grasas"},
-{"name":"Semillas de sésamo tostado o Tahini","grams":20,"category":"grasa","group":"grasas"},
-{"name":"Pipas girasol naturales","grams":19,"category":"grasa","group":"grasas"},
-{"name":"Pipas calabaza mondadas naturales","grams":20,"category":"grasa","group":"grasas"},
-{"name":"Semillas de amapola","grams":24,"category":"grasa","group":"grasas"},
-{"name":"Chocolate 70% sin azúcar","grams":15,"category":"grasa","group":"grasas"},
-{"name":"Chocolate 82%","grams":15,"category":"grasa","group":"grasas"},
-{"name":"Chocolate 85%","grams":15,"category":"grasa","group":"grasas"},
-{"name":"Chocolate 92%","grams":15,"category":"grasa","group":"grasas"},
-{"name":"Chocolate 100%","grams":15,"category":"grasa","group":"grasas"},
-{"name":"Leche de coco","grams":42,"category":"grasa","group":"grasas"},
-{"name":"Nata de coco","grams":29,"category":"grasa","group":"grasas"},
-{"name":"Nibs cacao 100%","grams":15,"category":"grasa","group":"grasas"},
-{"name":"Hummus","grams":60,"category":"grasa","group":"grasas"},
-{"name":"Queso semicurado","grams":30,"category":"grasa","group":"grasas"},
-{"name":"Queso crema bajo en grasa","grams":60,"category":"grasa","group":"grasas"},
-{"name":"Mayonesa","grams":13,"category":"grasa","group":"grasas"},
-{"name":"Alioli","grams":13,"category":"grasa","group":"grasas"},
-{"name":"Pesto","grams":21,"category":"grasa","group":"grasas"},
-
-
-{"name":"Acelga","grams":378,"category":"verdura","group":"verduras"},
-{"name":"Alcachofa","grams":133,"category":"verdura","group":"verduras"},
-{"name":"Apio","grams":467,"category":"verdura","group":"verduras"},
-{"name":"Berenjena","grams":237,"category":"verdura","group":"verduras"},
-{"name":"Brócoli","grams":212,"category":"verdura","group":"verduras"},
-{"name":"Calabacín","grams":452,"category":"verdura","group":"verduras"},
-{"name":"Calabaza","grams":215,"category":"verdura","group":"verduras"},
-{"name":"Cardo","grams":250,"category":"verdura","group":"verduras"},
-{"name":"Cebolla","grams":151,"category":"verdura","group":"verduras"},
-{"name":"Champiñones","grams":424,"category":"verdura","group":"verduras"},
-{"name":"Chirivía","grams":150,"category":"verdura","group":"verduras"},
-{"name":"Col lombarda","grams":250,"category":"verdura","group":"verduras"},
-{"name":"Col blanca","grams":241,"category":"verdura","group":"verduras"},
-{"name":"Coles de bruselas","grams":156,"category":"verdura","group":"verduras"},
-{"name":"Coliflor","grams":280,"category":"verdura","group":"verduras"},
-{"name":"Endibia","grams":412,"category":"verdura","group":"verduras"},
-{"name":"Escarola","grams":250,"category":"verdura","group":"verduras"},
-{"name":"Espárrago blanco en conserva","grams":250,"category":"verdura","group":"verduras"},
-{"name":"Espárrago fresco pelado","grams":359,"category":"verdura","group":"verduras"},
-{"name":"Espinacas","grams":389,"category":"verdura","group":"verduras"},
-{"name":"Judía verde","grams":200,"category":"verdura","group":"verduras"},
-{"name":"Lechuga","grams":483,"category":"verdura","group":"verduras"},
-{"name":"Nabos","grams":250,"category":"verdura","group":"verduras"},
-{"name":"Palmito en conserva","grams":150,"category":"verdura","group":"verduras"},
-{"name":"Pepino","grams":389,"category":"verdura","group":"verduras"},
-{"name":"Pimiento rojo","grams":233,"category":"verdura","group":"verduras"},
-{"name":"Pimiento verde","grams":304,"category":"verdura","group":"verduras"},
-{"name":"Puerro","grams":99,"category":"verdura","group":"verduras"},
-{"name":"Rábano","grams":412,"category":"verdura","group":"verduras"},
-{"name":"Salsa concentrada de tomate comercial","grams":50,"category":"verdura","group":"verduras"},
-{"name":"Soja germinada en conserva","grams":250,"category":"verdura","group":"verduras"},
-{"name":"Tomate maduro crudo","grams":359,"category":"verdura","group":"verduras"},
-{"name":"Tomate pelado triturado en conserva sin azúcar","grams":359,"category":"verdura","group":"verduras"},
-{"name":"Remolacha","grams":146,"category":"verdura","group":"verduras"},
-{"name":"Repollo","grams":241,"category":"verdura","group":"verduras"},
-{"name":"Zanahoria","grams":146,"category":"verdura","group":"verduras"},
-{"name":"Canónigos","grams":389,"category":"verdura","group":"verduras"},
-{"name":"Rúcula","grams":378,"category":"verdura","group":"verduras"},
-
-{"name":"Albaricoque","grams":126,"category":"fruta","group":"frutas"},
-{"name":"Albaricoque seco sin hueso","grams":40,"category":"fruta","group":"frutas"},
-{"name":"Arándanos","grams":97,"category":"fruta","group":"frutas"},
-{"name":"Cerezas","grams":88,"category":"fruta","group":"frutas"},
-{"name":"Ciruelas","grams":123,"category":"fruta","group":"frutas"},
-{"name":"Dátil seco","grams":20,"category":"fruta","group":"frutas"},
-{"name":"Frambuesa","grams":118,"category":"fruta","group":"frutas"},
-{"name":"Fresa","grams":182,"category":"fruta","group":"frutas"},
-{"name":"Granada","grams":75,"category":"fruta","group":"frutas"},
-{"name":"Higos","grams":73,"category":"fruta","group":"frutas"},
-{"name":"Kiwi","grams":95,"category":"fruta","group":"frutas"},
-{"name":"Lichi en conserva","grams":200,"category":"fruta","group":"frutas"},
-{"name":"Mandarina","grams":105,"category":"fruta","group":"frutas"},
-{"name":"Mango","grams":93,"category":"fruta","group":"frutas"},
-{"name":"Manzana","grams":101,"category":"fruta","group":"frutas"},
-{"name":"Melocotón","grams":147,"category":"fruta","group":"frutas"},
-{"name":"Melón","grams":171,"category":"fruta","group":"frutas"},
-{"name":"Moras","grams":146,"category":"fruta","group":"frutas"},
-{"name":"Naranja","grams":119,"category":"fruta","group":"frutas"},
-{"name":"Nectarina","grams":132,"category":"fruta","group":"frutas"},
-{"name":"Nísperos","grams":200,"category":"fruta","group":"frutas"},
-{"name":"Papaya","grams":127,"category":"fruta","group":"frutas"},
-{"name":"Pasas secas","grams":20,"category":"fruta","group":"frutas"},
-{"name":"Pera","grams":92,"category":"fruta","group":"frutas"},
-{"name":"Piña","grams":107,"category":"fruta","group":"frutas"},
-{"name":"Plátano","grams":61,"category":"fruta","group":"frutas"},
-{"name":"Pomelo","grams":131,"category":"fruta","group":"frutas"},
-{"name":"Sandía","grams":184,"category":"fruta","group":"frutas"},
-{"name":"Uvas","grams":77,"category":"fruta","group":"frutas"},
-{"name":"Limón","grams":151,"category":"fruta","group":"frutas"},
-{"name":"Lima","grams":133,"category":"fruta","group":"frutas"},
-{"name":"Caqui","grams":75,"category":"fruta","group":"frutas"},
-{"name":"Chirimoya","grams":78,"category":"fruta","group":"frutas"},
-
-{"name":"Barrita proteica Bar Collection","grams":55,"category":"otros","group":"otros1"},
-{"name":"Barrita proteica Barebells","grams":55,"category":"otros","group":"otros1"},
-{"name":"Batido proteico Barebells","grams":330,"category":"otros","group":"otros2"},
-{"name":"Bebida de almendras sin azúcar","grams":250,"category":"otros","group":"otros3"},
-{"name":"Bebida de soja sin azúcar","grams":250,"category":"otros","group":"otros4"},
-{"name":"Queso parmesano","grams":20,"category":"otros","group":"otros4"},
-{"name":"Altramuces en conserva sin azúcar","grams":100,"category":"otros","group":"otros5"},
-{"name":"Soja texturizada","grams":30,"category":"otros","group":"otros5"},
-{"name":"Tempeh","grams":100,"category":"otros","group":"otros6"},
-{"name":"Requesón","grams":100,"category":"otros","group":"otros4"},
-
-{"name":"Leche desnatada + proteínas","grams":150,"category":"lacteos","group":"lacteos_desnatados"},
-{"name":"Leche desnatada","grams":200,"category":"lacteos","group":"lacteos_desnatados"},
-{"name":"Leche semidesnatada","grams":200,"category":"lacteos","group":"lacteos_desnatados"},
-{"name":"Yogur desnatado natural","grams":200,"category":"lacteos","group":"lacteos_desnatados"},
-{"name":"Skyr natural","grams":200,"category":"lacteos","group":"lacteos_desnatados"},
-{"name":"Queso fresco batido 0%","grams":200,"category":"lacteos","group":"lacteos_desnatados"},
-{"name":"Queso fresco tipo Burgos 0%","grams":120,"category":"lacteos","group":"lacteos_desnatados"},
-{"name":"Yogur de cabra desnatado","grams":200,"category":"lacteos","group":"lacteos_desnatados"},
-{"name":"Kéfir de oveja desnatado","grams":200,"category":"lacteos","group":"lacteos_desnatados"},
-{"name":"Kéfir de cabra desnatado","grams":200,"category":"lacteos","group":"lacteos_desnatados"},
-{"name":"Yogur de soja","grams":180,"category":"lacteos","group":"lacteos_desnatados"},
-{"name":"Yogur griego ligero","grams":120,"category":"lacteos","group":"lacteos_desnatados"},
-
-{"name":"Cuajada","grams":125,"category":"lacteos","group":"lacteos_enteros"},
-{"name":"Leche de cabra","grams":150,"category":"lacteos","group":"lacteos_enteros"},
-{"name":"Leche de oveja","grams":100,"category":"lacteos","group":"lacteos_enteros"},
-{"name":"Leche entera","grams":150,"category":"lacteos","group":"lacteos_enteros"},
-{"name":"Yogur natural entero","grams":200,"category":"lacteos","group":"lacteos_enteros"},
-{"name":"Kéfir","grams":150,"category":"lacteos","group":"lacteos_enteros"},
-
-{"name":"Azúcar blanco","grams":10,"category":"azucar","group":"azucares"},
-{"name":"Cacao soluble en polvo sin azúcar","grams":10,"category":"azucar","group":"azucares"},
-{"name":"Mermelada","grams":15,"category":"azucar","group":"azucares"},
-{"name":"Miel","grams":15,"category":"azucar","group":"azucares"}
-
+  "foods": [
+    {
+      "id": 1,
+      "name": "Arroz blanco crudo",
+      "grams": 30,
+      "category": "arroz",
+      "group": "hidratos"
+    },
+    {
+      "id": 2,
+      "name": "Arroz blanco cocido",
+      "grams": 120,
+      "category": "arroz",
+      "group": "hidratos"
+    },
+    {
+      "id": 3,
+      "name": "Arroz redondo",
+      "grams": 30,
+      "category": "arroz",
+      "group": "hidratos"
+    },
+    {
+      "id": 4,
+      "name": "Arroz largo",
+      "grams": 30,
+      "category": "arroz",
+      "group": "hidratos"
+    },
+    {
+      "id": 5,
+      "name": "Arroz vaporizado",
+      "grams": 30,
+      "category": "arroz",
+      "group": "hidratos"
+    },
+    {
+      "id": 6,
+      "name": "Arroz precocido",
+      "grams": 30,
+      "category": "arroz",
+      "group": "hidratos"
+    },
+    {
+      "id": 7,
+      "name": "Arroz hinchado enriquecido",
+      "grams": 30,
+      "category": "arroz",
+      "group": "hidratos"
+    },
+    {
+      "id": 8,
+      "name": "Arroz integral crudo",
+      "grams": 30,
+      "category": "arroz",
+      "group": "hidratos"
+    },
+    {
+      "id": 9,
+      "name": "Arroz integral cocido",
+      "grams": 130,
+      "category": "arroz",
+      "group": "hidratos"
+    },
+    {
+      "id": 10,
+      "name": "Arroz integral vaporizado",
+      "grams": 30,
+      "category": "arroz",
+      "group": "hidratos"
+    },
+    {
+      "id": 11,
+      "name": "Arroz basmati crudo",
+      "grams": 30,
+      "category": "arroz",
+      "group": "hidratos"
+    },
+    {
+      "id": 12,
+      "name": "Arroz basmati cocido",
+      "grams": 120,
+      "category": "arroz",
+      "group": "hidratos"
+    },
+    {
+      "id": 13,
+      "name": "Arroz thai",
+      "grams": 30,
+      "category": "arroz",
+      "group": "hidratos"
+    },
+    {
+      "id": 14,
+      "name": "Arroz jazmín crudo",
+      "grams": 30,
+      "category": "arroz",
+      "group": "hidratos"
+    },
+    {
+      "id": 15,
+      "name": "Arroz jazmín cocido",
+      "grams": 120,
+      "category": "arroz",
+      "group": "hidratos"
+    },
+    {
+      "id": 16,
+      "name": "Arroz bomba",
+      "grams": 30,
+      "category": "arroz",
+      "group": "hidratos"
+    },
+    {
+      "id": 17,
+      "name": "Arroz arborio",
+      "grams": 30,
+      "category": "arroz",
+      "group": "hidratos"
+    },
+    {
+      "id": 18,
+      "name": "Arroz carnaroli",
+      "grams": 30,
+      "category": "arroz",
+      "group": "hidratos"
+    },
+    {
+      "id": 19,
+      "name": "Arroz valenciano",
+      "grams": 30,
+      "category": "arroz",
+      "group": "hidratos"
+    },
+    {
+      "id": 20,
+      "name": "Arroz negro",
+      "grams": 30,
+      "category": "arroz",
+      "group": "hidratos"
+    },
+    {
+      "id": 21,
+      "name": "Arroz rojo",
+      "grams": 30,
+      "category": "arroz",
+      "group": "hidratos"
+    },
+    {
+      "id": 22,
+      "name": "Arroz salvaje",
+      "grams": 30,
+      "category": "arroz",
+      "group": "hidratos"
+    },
+    {
+      "id": 23,
+      "name": "Mezcla arroz blanco e integral",
+      "grams": 30,
+      "category": "arroz",
+      "group": "hidratos"
+    },
+    {
+      "id": 24,
+      "name": "Mezcla arroces gourmet",
+      "grams": 30,
+      "category": "arroz",
+      "group": "hidratos"
+    },
+    {
+      "id": 25,
+      "name": "Copos de maíz",
+      "grams": 17,
+      "category": "cereales_desayuno",
+      "group": "hidratos"
+    },
+    {
+      "id": 26,
+      "name": "Copos de trigo",
+      "grams": 18,
+      "category": "cereales_desayuno",
+      "group": "hidratos"
+    },
+    {
+      "id": 27,
+      "name": "Copos de arroz",
+      "grams": 17,
+      "category": "cereales_desayuno",
+      "group": "hidratos"
+    },
+    {
+      "id": 28,
+      "name": "Copos de espelta",
+      "grams": 20,
+      "category": "cereales_desayuno",
+      "group": "hidratos"
+    },
+    {
+      "id": 29,
+      "name": "Copos de centeno",
+      "grams": 21,
+      "category": "cereales_desayuno",
+      "group": "hidratos"
+    },
+    {
+      "id": 30,
+      "name": "Arroz inflado",
+      "grams": 16,
+      "category": "cereales_desayuno",
+      "group": "hidratos"
+    },
+    {
+      "id": 31,
+      "name": "Trigo inflado",
+      "grams": 18,
+      "category": "cereales_desayuno",
+      "group": "hidratos"
+    },
+    {
+      "id": 32,
+      "name": "Espelta inflada",
+      "grams": 20,
+      "category": "cereales_desayuno",
+      "group": "hidratos"
+    },
+    {
+      "id": 33,
+      "name": "Mijo inflado",
+      "grams": 19,
+      "category": "cereales_desayuno",
+      "group": "hidratos"
+    },
+    {
+      "id": 34,
+      "name": "Quinoa inflada",
+      "grams": 21,
+      "category": "cereales_desayuno",
+      "group": "hidratos"
+    },
+    {
+      "id": 35,
+      "name": "Amaranto inflado",
+      "grams": 21,
+      "category": "cereales_desayuno",
+      "group": "hidratos"
+    },
+    {
+      "id": 36,
+      "name": "Muesli natural",
+      "grams": 22,
+      "category": "cereales_desayuno",
+      "group": "hidratos"
+    },
+    {
+      "id": 37,
+      "name": "Muesli con frutos secos",
+      "grams": 25,
+      "category": "cereales_desayuno",
+      "group": "hidratos"
+    },
+    {
+      "id": 38,
+      "name": "Muesli con fruta desecada",
+      "grams": 21,
+      "category": "cereales_desayuno",
+      "group": "hidratos"
+    },
+    {
+      "id": 39,
+      "name": "Granola natural",
+      "grams": 24,
+      "category": "cereales_desayuno",
+      "group": "hidratos"
+    },
+    {
+      "id": 40,
+      "name": "Granola con chocolate",
+      "grams": 23,
+      "category": "cereales_desayuno",
+      "group": "hidratos"
+    },
+    {
+      "id": 41,
+      "name": "Cereales con chocolate",
+      "grams": 19,
+      "category": "cereales_desayuno",
+      "group": "hidratos"
+    },
+    {
+      "id": 42,
+      "name": "Cereales rellenos con chocolate",
+      "grams": 20,
+      "category": "cereales_desayuno",
+      "group": "hidratos"
+    },
+    {
+      "id": 43,
+      "name": "Cereales con miel",
+      "grams": 18,
+      "category": "cereales_desayuno",
+      "group": "hidratos"
+    },
+    {
+      "id": 44,
+      "name": "Aros de cereales",
+      "grams": 18,
+      "category": "cereales_desayuno",
+      "group": "hidratos"
+    },
+    {
+      "id": 45,
+      "name": "Almohadillas rellenas",
+      "grams": 21,
+      "category": "cereales_desayuno",
+      "group": "hidratos"
+    },
+    {
+      "id": 46,
+      "name": "Bolitas de maíz chocolateadas",
+      "grams": 19,
+      "category": "cereales_desayuno",
+      "group": "hidratos"
+    },
+    {
+      "id": 47,
+      "name": "Copos glaseados",
+      "grams": 17,
+      "category": "cereales_desayuno",
+      "group": "hidratos"
+    },
+    {
+      "id": 48,
+      "name": "Cereales infantiles 8 cereales",
+      "grams": 18,
+      "category": "cereales_desayuno",
+      "group": "hidratos"
+    },
+    {
+      "id": 49,
+      "name": "Papilla de arroz",
+      "grams": 18,
+      "category": "cereales_desayuno",
+      "group": "hidratos"
+    },
+    {
+      "id": 50,
+      "name": "Papilla multicereales",
+      "grams": 19,
+      "category": "cereales_desayuno",
+      "group": "hidratos"
+    },
+    {
+      "id": 51,
+      "name": "Avena en copos",
+      "grams": 23,
+      "category": "cereales",
+      "group": "hidratos"
+    },
+    {
+      "id": 52,
+      "name": "Avena instantánea",
+      "grams": 23,
+      "category": "cereales",
+      "group": "hidratos"
+    },
+    {
+      "id": 53,
+      "name": "Salvado de avena",
+      "grams": 30,
+      "category": "cereales",
+      "group": "hidratos"
+    },
+    {
+      "id": 54,
+      "name": "Quinoa cruda",
+      "grams": 22,
+      "category": "cereales",
+      "group": "hidratos"
+    },
+    {
+      "id": 55,
+      "name": "Quinoa cocida",
+      "grams": 66,
+      "category": "cereales",
+      "group": "hidratos"
+    },
+    {
+      "id": 56,
+      "name": "Bulgur crudo",
+      "grams": 18,
+      "category": "cereales",
+      "group": "hidratos"
+    },
+    {
+      "id": 57,
+      "name": "Bulgur cocido",
+      "grams": 76,
+      "category": "cereales",
+      "group": "hidratos"
+    },
+    {
+      "id": 58,
+      "name": "Cuscús crudo",
+      "grams": 18,
+      "category": "cereales",
+      "group": "hidratos"
+    },
+    {
+      "id": 59,
+      "name": "Cuscús cocido",
+      "grams": 61,
+      "category": "cereales",
+      "group": "hidratos"
+    },
+    {
+      "id": 60,
+      "name": "Mijo crudo",
+      "grams": 19,
+      "category": "cereales",
+      "group": "hidratos"
+    },
+    {
+      "id": 61,
+      "name": "Mijo cocido",
+      "grams": 58,
+      "category": "cereales",
+      "group": "hidratos"
+    },
+    {
+      "id": 62,
+      "name": "Amaranto crudo",
+      "grams": 21,
+      "category": "cereales",
+      "group": "hidratos"
+    },
+    {
+      "id": 63,
+      "name": "Amaranto cocido",
+      "grams": 74,
+      "category": "cereales",
+      "group": "hidratos"
+    },
+    {
+      "id": 64,
+      "name": "Trigo sarraceno crudo",
+      "grams": 20,
+      "category": "cereales",
+      "group": "hidratos"
+    },
+    {
+      "id": 65,
+      "name": "Trigo sarraceno cocido",
+      "grams": 70,
+      "category": "cereales",
+      "group": "hidratos"
+    },
+    {
+      "id": 66,
+      "name": "Cebada perlada cruda",
+      "grams": 19,
+      "category": "cereales",
+      "group": "hidratos"
+    },
+    {
+      "id": 67,
+      "name": "Cebada perlada cocida",
+      "grams": 50,
+      "category": "cereales",
+      "group": "hidratos"
+    },
+    {
+      "id": 68,
+      "name": "Espelta grano crudo",
+      "grams": 20,
+      "category": "cereales",
+      "group": "hidratos"
+    },
+    {
+      "id": 69,
+      "name": "Espelta cocida",
+      "grams": 54,
+      "category": "cereales",
+      "group": "hidratos"
+    },
+    {
+      "id": 70,
+      "name": "Centeno grano crudo",
+      "grams": 20,
+      "category": "cereales",
+      "group": "hidratos"
+    },
+    {
+      "id": 71,
+      "name": "Centeno grano cocido",
+      "grams": 58,
+      "category": "cereales",
+      "group": "hidratos"
+    },
+    {
+      "id": 72,
+      "name": "Trigo en grano",
+      "grams": 20,
+      "category": "cereales",
+      "group": "hidratos"
+    },
+    {
+      "id": 73,
+      "name": "Trigo cocido",
+      "grams": 56,
+      "category": "cereales",
+      "group": "hidratos"
+    },
+    {
+      "id": 74,
+      "name": "Kamut crudo",
+      "grams": 20,
+      "category": "cereales",
+      "group": "hidratos"
+    },
+    {
+      "id": 75,
+      "name": "Kamut cocido",
+      "grams": 58,
+      "category": "cereales",
+      "group": "hidratos"
+    },
+    {
+      "id": 76,
+      "name": "Freekeh crudo",
+      "grams": 20,
+      "category": "cereales",
+      "group": "hidratos"
+    },
+    {
+      "id": 77,
+      "name": "Freekeh cocido",
+      "grams": 56,
+      "category": "cereales",
+      "group": "hidratos"
+    },
+    {
+      "id": 78,
+      "name": "Teff crudo",
+      "grams": 19,
+      "category": "cereales",
+      "group": "hidratos"
+    },
+    {
+      "id": 79,
+      "name": "Teff cocido",
+      "grams": 70,
+      "category": "cereales",
+      "group": "hidratos"
+    },
+    {
+      "id": 80,
+      "name": "Sorgo crudo",
+      "grams": 19,
+      "category": "cereales",
+      "group": "hidratos"
+    },
+    {
+      "id": 81,
+      "name": "Sorgo cocido",
+      "grams": 52,
+      "category": "cereales",
+      "group": "hidratos"
+    },
+    {
+      "id": 82,
+      "name": "Fonio crudo",
+      "grams": 19,
+      "category": "cereales",
+      "group": "hidratos"
+    },
+    {
+      "id": 83,
+      "name": "Fonio cocido",
+      "grams": 64,
+      "category": "cereales",
+      "group": "hidratos"
+    },
+    {
+      "id": 84,
+      "name": "Harina trigo",
+      "grams": 18,
+      "category": "harinas_semolas",
+      "group": "hidratos"
+    },
+    {
+      "id": 85,
+      "name": "Harina trigo integral",
+      "grams": 21,
+      "category": "harinas_semolas",
+      "group": "hidratos"
+    },
+    {
+      "id": 86,
+      "name": "Harina de fuerza",
+      "grams": 19,
+      "category": "harinas_semolas",
+      "group": "hidratos"
+    },
+    {
+      "id": 87,
+      "name": "Harina de espelta",
+      "grams": 21,
+      "category": "harinas_semolas",
+      "group": "hidratos"
+    },
+    {
+      "id": 88,
+      "name": "Harina de centeno",
+      "grams": 20,
+      "category": "harinas_semolas",
+      "group": "hidratos"
+    },
+    {
+      "id": 89,
+      "name": "Harina de avena",
+      "grams": 23,
+      "category": "harinas_semolas",
+      "group": "hidratos"
+    },
+    {
+      "id": 90,
+      "name": "Harina de arroz",
+      "grams": 18,
+      "category": "harinas_semolas",
+      "group": "hidratos"
+    },
+    {
+      "id": 91,
+      "name": "Harina de maíz",
+      "grams": 18,
+      "category": "harinas_semolas",
+      "group": "hidratos"
+    },
+    {
+      "id": 92,
+      "name": "Harina de trigo sarraceno",
+      "grams": 20,
+      "category": "harinas_semolas",
+      "group": "hidratos"
+    },
+    {
+      "id": 93,
+      "name": "Harina de quinoa",
+      "grams": 22,
+      "category": "harinas_semolas",
+      "group": "hidratos"
+    },
+    {
+      "id": 94,
+      "name": "Harina de garbanzo",
+      "grams": 24,
+      "category": "harinas_semolas",
+      "group": "hidratos"
+    },
+    {
+      "id": 95,
+      "name": "Harina de almendra",
+      "grams": 70,
+      "category": "harinas_semolas",
+      "group": "hidratos"
+    },
+    {
+      "id": 96,
+      "name": "Harina de coco",
+      "grams": 58,
+      "category": "harinas_semolas",
+      "group": "hidratos"
+    },
+    {
+      "id": 97,
+      "name": "Maicena",
+      "grams": 15,
+      "category": "harinas_semolas",
+      "group": "hidratos"
+    },
+    {
+      "id": 98,
+      "name": "Fécula de patata",
+      "grams": 17,
+      "category": "harinas_semolas",
+      "group": "hidratos"
+    },
+    {
+      "id": 99,
+      "name": "Tapioca",
+      "grams": 16,
+      "category": "harinas_semolas",
+      "group": "hidratos"
+    },
+    {
+      "id": 100,
+      "name": "Sémola de trigo",
+      "grams": 19,
+      "category": "harinas_semolas",
+      "group": "hidratos"
+    },
+    {
+      "id": 101,
+      "name": "Sémola integral",
+      "grams": 21,
+      "category": "harinas_semolas",
+      "group": "hidratos"
+    },
+    {
+      "id": 102,
+      "name": "Polenta seca",
+      "grams": 18,
+      "category": "harinas_semolas",
+      "group": "hidratos"
+    },
+    {
+      "id": 103,
+      "name": "Polenta cocida",
+      "grams": 88,
+      "category": "harinas_semolas",
+      "group": "hidratos"
+    },
+    {
+      "id": 104,
+      "name": "Pan blanco",
+      "grams": 27,
+      "category": "pan",
+      "group": "hidratos"
+    },
+    {
+      "id": 105,
+      "name": "Pan integral",
+      "grams": 31,
+      "category": "pan",
+      "group": "hidratos"
+    },
+    {
+      "id": 106,
+      "name": "Pan multicereal",
+      "grams": 32,
+      "category": "pan",
+      "group": "hidratos"
+    },
+    {
+      "id": 107,
+      "name": "Pan de centeno",
+      "grams": 31,
+      "category": "pan",
+      "group": "hidratos"
+    },
+    {
+      "id": 108,
+      "name": "Pan de espelta",
+      "grams": 31,
+      "category": "pan",
+      "group": "hidratos"
+    },
+    {
+      "id": 109,
+      "name": "Pan de trigo sarraceno",
+      "grams": 33,
+      "category": "pan",
+      "group": "hidratos"
+    },
+    {
+      "id": 110,
+      "name": "Pan de masa madre blanco",
+      "grams": 28,
+      "category": "pan",
+      "group": "hidratos"
+    },
+    {
+      "id": 111,
+      "name": "Pan de masa madre integral",
+      "grams": 33,
+      "category": "pan",
+      "group": "hidratos"
+    },
+    {
+      "id": 112,
+      "name": "Pan de molde blanco",
+      "grams": 30,
+      "category": "pan",
+      "group": "hidratos"
+    },
+    {
+      "id": 113,
+      "name": "Pan de molde integral",
+      "grams": 33,
+      "category": "pan",
+      "group": "hidratos"
+    },
+    {
+      "id": 114,
+      "name": "Pan de molde sin corteza",
+      "grams": 29,
+      "category": "pan",
+      "group": "hidratos"
+    },
+    {
+      "id": 115,
+      "name": "Pan de hamburguesa",
+      "grams": 30,
+      "category": "pan",
+      "group": "hidratos"
+    },
+    {
+      "id": 116,
+      "name": "Pan de perrito caliente",
+      "grams": 30,
+      "category": "pan",
+      "group": "hidratos"
+    },
+    {
+      "id": 117,
+      "name": "Pan pita",
+      "grams": 26,
+      "category": "pan",
+      "group": "hidratos"
+    },
+    {
+      "id": 118,
+      "name": "Pan naan",
+      "grams": 29,
+      "category": "pan",
+      "group": "hidratos"
+    },
+    {
+      "id": 119,
+      "name": "Pan lavash",
+      "grams": 25,
+      "category": "pan",
+      "group": "hidratos"
+    },
+    {
+      "id": 120,
+      "name": "Focaccia",
+      "grams": 31,
+      "category": "pan",
+      "group": "hidratos"
+    },
+    {
+      "id": 121,
+      "name": "Ciabatta",
+      "grams": 28,
+      "category": "pan",
+      "group": "hidratos"
+    },
+    {
+      "id": 122,
+      "name": "Mollete",
+      "grams": 29,
+      "category": "pan",
+      "group": "hidratos"
+    },
+    {
+      "id": 123,
+      "name": "Pan gallego",
+      "grams": 28,
+      "category": "pan",
+      "group": "hidratos"
+    },
+    {
+      "id": 124,
+      "name": "Pan payés",
+      "grams": 28,
+      "category": "pan",
+      "group": "hidratos"
+    },
+    {
+      "id": 125,
+      "name": "Pan sueco",
+      "grams": 20,
+      "category": "pan",
+      "group": "hidratos"
+    },
+    {
+      "id": 126,
+      "name": "Knäckebröd",
+      "grams": 21,
+      "category": "pan",
+      "group": "hidratos"
+    },
+    {
+      "id": 127,
+      "name": "Biscotes",
+      "grams": 20,
+      "category": "pan",
+      "group": "hidratos"
+    },
+    {
+      "id": 128,
+      "name": "Picos",
+      "grams": 20,
+      "category": "pan",
+      "group": "hidratos"
+    },
+    {
+      "id": 129,
+      "name": "Regañás",
+      "grams": 20,
+      "category": "pan",
+      "group": "hidratos"
+    },
+    {
+      "id": 130,
+      "name": "Colines",
+      "grams": 20,
+      "category": "pan",
+      "group": "hidratos"
+    },
+    {
+      "id": 131,
+      "name": "Grissini",
+      "grams": 20,
+      "category": "pan",
+      "group": "hidratos"
+    },
+    {
+      "id": 132,
+      "name": "Pasta seca",
+      "grams": 19,
+      "category": "pasta",
+      "group": "hidratos"
+    },
+    {
+      "id": 133,
+      "name": "Pasta cocida",
+      "grams": 45,
+      "category": "pasta",
+      "group": "hidratos"
+    },
+    {
+      "id": 134,
+      "name": "Pasta integral seca",
+      "grams": 22,
+      "category": "pasta",
+      "group": "hidratos"
+    },
+    {
+      "id": 135,
+      "name": "Pasta integral cocida",
+      "grams": 50,
+      "category": "pasta",
+      "group": "hidratos"
+    },
+    {
+      "id": 136,
+      "name": "Pasta de espelta",
+      "grams": 21,
+      "category": "pasta",
+      "group": "hidratos"
+    },
+    {
+      "id": 137,
+      "name": "Pasta de kamut",
+      "grams": 21,
+      "category": "pasta",
+      "group": "hidratos"
+    },
+    {
+      "id": 138,
+      "name": "Pasta trigo sarraceno",
+      "grams": 20,
+      "category": "pasta",
+      "group": "hidratos"
+    },
+    {
+      "id": 139,
+      "name": "Pasta de arroz",
+      "grams": 18,
+      "category": "pasta",
+      "group": "hidratos"
+    },
+    {
+      "id": 140,
+      "name": "Pasta de maíz",
+      "grams": 19,
+      "category": "pasta",
+      "group": "hidratos"
+    },
+    {
+      "id": 141,
+      "name": "Pasta sin gluten",
+      "grams": 18,
+      "category": "pasta",
+      "group": "hidratos"
+    },
+    {
+      "id": 142,
+      "name": "Pasta fresca",
+      "grams": 30,
+      "category": "pasta",
+      "group": "hidratos"
+    },
+    {
+      "id": 143,
+      "name": "Pasta fresca integral",
+      "grams": 33,
+      "category": "pasta",
+      "group": "hidratos"
+    },
+    {
+      "id": 144,
+      "name": "Ñoquis de patata",
+      "grams": 47,
+      "category": "tuberculos",
+      "group": "hidratos"
+    },
+    {
+      "id": 145,
+      "name": "Raviolis frescos",
+      "grams": 44,
+      "category": "pasta",
+      "group": "hidratos"
+    },
+    {
+      "id": 146,
+      "name": "Tortellini frescos",
+      "grams": 45,
+      "category": "pasta",
+      "group": "hidratos"
+    },
+    {
+      "id": 147,
+      "name": "Tortelloni",
+      "grams": 47,
+      "category": "pasta",
+      "group": "hidratos"
+    },
+    {
+      "id": 148,
+      "name": "Fideos de arroz secos",
+      "grams": 18,
+      "category": "pasta",
+      "group": "hidratos"
+    },
+    {
+      "id": 149,
+      "name": "Fideos de arroz cocidos",
+      "grams": 54,
+      "category": "pasta",
+      "group": "hidratos"
+    },
+    {
+      "id": 150,
+      "name": "Udon frescos",
+      "grams": 50,
+      "category": "pasta",
+      "group": "hidratos"
+    },
+    {
+      "id": 151,
+      "name": "Soba",
+      "grams": 21,
+      "category": "pasta",
+      "group": "hidratos"
+    },
+    {
+      "id": 152,
+      "name": "Vermicelli de arroz",
+      "grams": 18,
+      "category": "pasta",
+      "group": "hidratos"
+    },
+    {
+      "id": 153,
+      "name": "Fideos ramen frescos",
+      "grams": 47,
+      "category": "pasta",
+      "group": "hidratos"
+    },
+    {
+      "id": 154,
+      "name": "Fideos de huevo",
+      "grams": 18,
+      "category": "pasta",
+      "group": "hidratos"
+    },
+    {
+      "id": 155,
+      "name": "Patata cruda",
+      "grams": 81,
+      "category": "tuberculos",
+      "group": "hidratos"
+    },
+    {
+      "id": 156,
+      "name": "Patata cocida",
+      "grams": 91,
+      "category": "tuberculos",
+      "group": "hidratos"
+    },
+    {
+      "id": 157,
+      "name": "Patata al vapor",
+      "grams": 88,
+      "category": "tuberculos",
+      "group": "hidratos"
+    },
+    {
+      "id": 158,
+      "name": "Patata asada",
+      "grams": 67,
+      "category": "tuberculos",
+      "group": "hidratos"
+    },
+    {
+      "id": 159,
+      "name": "Patata en airfryer",
+      "grams": 64,
+      "category": "tuberculos",
+      "group": "hidratos"
+    },
+    {
+      "id": 160,
+      "name": "Puré de patata casero",
+      "grams": 85,
+      "category": "tuberculos",
+      "group": "hidratos"
+    },
+    {
+      "id": 161,
+      "name": "Boniato crudo",
+      "grams": 70,
+      "category": "tuberculos",
+      "group": "hidratos"
+    },
+    {
+      "id": 162,
+      "name": "Boniato cocido",
+      "grams": 85,
+      "category": "tuberculos",
+      "group": "hidratos"
+    },
+    {
+      "id": 163,
+      "name": "Boniato asado",
+      "grams": 58,
+      "category": "tuberculos",
+      "group": "hidratos"
+    },
+    {
+      "id": 164,
+      "name": "Yuca cruda",
+      "grams": 37,
+      "category": "tuberculos",
+      "group": "hidratos"
+    },
+    {
+      "id": 165,
+      "name": "Yuca cocida",
+      "grams": 50,
+      "category": "tuberculos",
+      "group": "hidratos"
+    },
+    {
+      "id": 166,
+      "name": "Ñame crudo",
+      "grams": 51,
+      "category": "tuberculos",
+      "group": "hidratos"
+    },
+    {
+      "id": 167,
+      "name": "Ñame cocido",
+      "grams": 60,
+      "category": "tuberculos",
+      "group": "hidratos"
+    },
+    {
+      "id": 168,
+      "name": "Taro crudo",
+      "grams": 40,
+      "category": "tuberculos",
+      "group": "hidratos"
+    },
+    {
+      "id": 169,
+      "name": "Taro cocido",
+      "grams": 54,
+      "category": "tuberculos",
+      "group": "hidratos"
+    },
+    {
+      "id": 170,
+      "name": "Malanga cruda",
+      "grams": 41,
+      "category": "tuberculos",
+      "group": "hidratos"
+    },
+    {
+      "id": 171,
+      "name": "Malanga cocida",
+      "grams": 54,
+      "category": "tuberculos",
+      "group": "hidratos"
+    },
+    {
+      "id": 172,
+      "name": "Oca andina",
+      "grams": 76,
+      "category": "tuberculos",
+      "group": "hidratos"
+    },
+    {
+      "id": 173,
+      "name": "Mashua",
+      "grams": 88,
+      "category": "tuberculos",
+      "group": "hidratos"
+    },
+    {
+      "id": 174,
+      "name": "Arracacha",
+      "grams": 54,
+      "category": "tuberculos",
+      "group": "hidratos"
+    },
+    {
+      "id": 175,
+      "name": "Tortitas de arroz",
+      "grams": 20,
+      "category": "hidratos",
+      "group": "hidratos"
+    },
+    {
+      "id": 176,
+      "name": "Tortitas de maíz",
+      "grams": 20,
+      "category": "hidratos",
+      "group": "hidratos"
+    },
+    {
+      "id": 177,
+      "name": "Crema de arroz",
+      "grams": 25,
+      "category": "hidratos",
+      "group": "hidratos"
+    },
+    {
+      "id": 178,
+      "name": "Maíz hervido lata",
+      "grams": 80,
+      "category": "hidratos",
+      "group": "hidratos"
+    },
+    {
+      "id": 179,
+      "name": "Palomitas sin aceite ni sal",
+      "grams": 20,
+      "category": "hidratos",
+      "group": "hidratos"
+    },
+    {
+      "id": 180,
+      "name": "Copos de puré patata sin leche",
+      "grams": 18,
+      "category": "tuberculos",
+      "group": "hidratos"
+    },
+    {
+      "id": 181,
+      "name": "Tortillas mejicanas de maíz o integral",
+      "grams": 30,
+      "category": "hidratos",
+      "group": "hidratos"
+    },
+    {
+      "id": 182,
+      "name": "Biscote de pan tipo Wasa",
+      "grams": 20,
+      "category": "hidratos",
+      "group": "hidratos"
+    },
+    {
+      "id": 183,
+      "name": "Castaña",
+      "grams": 40,
+      "category": "frutos_secos",
+      "group": "hidratos"
+    },
+    {
+      "id": 184,
+      "name": "Bebida de avena o arroz",
+      "grams": 150,
+      "category": "hidratos",
+      "group": "hidratos"
+    },
+    {
+      "id": 185,
+      "name": "Alubias blancas cocidas",
+      "grams": 69,
+      "category": "legumbre",
+      "group": "legumbres"
+    },
+    {
+      "id": 186,
+      "name": "Alubias rojas cocidas",
+      "grams": 61,
+      "category": "legumbre",
+      "group": "legumbres"
+    },
+    {
+      "id": 187,
+      "name": "Alubias negras cocidas",
+      "grams": 59,
+      "category": "legumbre",
+      "group": "legumbres"
+    },
+    {
+      "id": 188,
+      "name": "Garbanzos cocidos",
+      "grams": 51,
+      "category": "legumbre",
+      "group": "legumbres"
+    },
+    {
+      "id": 189,
+      "name": "Lentejas cocidas",
+      "grams": 70,
+      "category": "legumbre",
+      "group": "legumbres"
+    },
+    {
+      "id": 190,
+      "name": "Judías pintas cocidas",
+      "grams": 53,
+      "category": "legumbre",
+      "group": "legumbres"
+    },
+    {
+      "id": 191,
+      "name": "Soja cocida",
+      "grams": 167,
+      "category": "legumbre",
+      "group": "legumbres"
+    },
+    {
+      "id": 192,
+      "name": "Habas cocidas",
+      "grams": 75,
+      "category": "legumbre",
+      "group": "legumbres"
+    },
+    {
+      "id": 193,
+      "name": "Guisantes cocidos",
+      "grams": 90,
+      "category": "legumbre",
+      "group": "legumbres"
+    },
+    {
+      "id": 194,
+      "name": "Altramuz cocido",
+      "grams": 141,
+      "category": "legumbre",
+      "group": "legumbres"
+    },
+    {
+      "id": 195,
+      "name": "Pasta de lenteja",
+      "grams": 23,
+      "category": "legumbre",
+      "group": "legumbres"
+    },
+    {
+      "id": 196,
+      "name": "Pasta de garbanzo",
+      "grams": 24,
+      "category": "legumbre",
+      "group": "legumbres"
+    },
+    {
+      "id": 197,
+      "name": "Pasta de guisante",
+      "grams": 23,
+      "category": "legumbre",
+      "group": "legumbres"
+    },
+    {
+      "id": 198,
+      "name": "Shaken Banana YÜIT",
+      "grams": 30,
+      "category": "legumbre",
+      "group": "legumbres"
+    },
+    {
+      "id": 199,
+      "name": "Pumpkin Coffee YÜIT",
+      "grams": 30,
+      "category": "legumbre",
+      "group": "legumbres"
+    },
+    {
+      "id": 200,
+      "name": "Claras de huevo líquidas",
+      "grams": 210,
+      "category": "huevo_magro",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 201,
+      "name": "Bacalao",
+      "grams": 125,
+      "category": "pescado_magro",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 202,
+      "name": "Merluza",
+      "grams": 125,
+      "category": "pescado_magro",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 203,
+      "name": "Pescadilla",
+      "grams": 125,
+      "category": "pescado_magro",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 204,
+      "name": "Lenguado",
+      "grams": 125,
+      "category": "pescado_magro",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 205,
+      "name": "Gallo",
+      "grams": 125,
+      "category": "pescado_magro",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 206,
+      "name": "Abadejo",
+      "grams": 125,
+      "category": "pescado_magro",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 207,
+      "name": "Rosada",
+      "grams": 125,
+      "category": "pescado_magro",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 208,
+      "name": "Fogonero",
+      "grams": 125,
+      "category": "pescado_magro",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 209,
+      "name": "Mero",
+      "grams": 125,
+      "category": "pescado_magro",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 210,
+      "name": "Rape",
+      "grams": 125,
+      "category": "pescado_magro",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 211,
+      "name": "Lubina",
+      "grams": 125,
+      "category": "pescado_magro",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 212,
+      "name": "Dorada",
+      "grams": 125,
+      "category": "pescado_magro",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 213,
+      "name": "Corvina",
+      "grams": 125,
+      "category": "pescado_magro",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 214,
+      "name": "Cabracho",
+      "grams": 130,
+      "category": "pescado_magro",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 215,
+      "name": "Rodaballo",
+      "grams": 135,
+      "category": "pescado_magro",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 216,
+      "name": "Sepia",
+      "grams": 125,
+      "category": "marisco",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 217,
+      "name": "Calamar",
+      "grams": 125,
+      "category": "marisco",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 218,
+      "name": "Chipirones",
+      "grams": 125,
+      "category": "marisco",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 219,
+      "name": "Pulpo",
+      "grams": 125,
+      "category": "marisco",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 220,
+      "name": "Gambas",
+      "grams": 120,
+      "category": "marisco",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 221,
+      "name": "Langostinos",
+      "grams": 120,
+      "category": "marisco",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 222,
+      "name": "Cigalas",
+      "grams": 125,
+      "category": "marisco",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 223,
+      "name": "Bogavante",
+      "grams": 130,
+      "category": "marisco",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 224,
+      "name": "Langosta",
+      "grams": 130,
+      "category": "marisco",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 225,
+      "name": "Mejillones",
+      "grams": 170,
+      "category": "marisco",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 226,
+      "name": "Almejas",
+      "grams": 170,
+      "category": "marisco",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 227,
+      "name": "Berberechos",
+      "grams": 170,
+      "category": "marisco",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 228,
+      "name": "Vieira",
+      "grams": 140,
+      "category": "marisco",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 229,
+      "name": "Pechuga de pollo",
+      "grams": 105,
+      "category": "carne_magra",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 230,
+      "name": "Pechuga de pavo",
+      "grams": 105,
+      "category": "carne_magra",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 231,
+      "name": "Solomillo de pavo",
+      "grams": 105,
+      "category": "carne_magra",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 232,
+      "name": "Jamón cocido extra (>90% carne)",
+      "grams": 115,
+      "category": "carne_magra",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 233,
+      "name": "Fiambre de pavo 95%",
+      "grams": 115,
+      "category": "carne_magra",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 234,
+      "name": "Conejo",
+      "grams": 115,
+      "category": "carne_magra",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 235,
+      "name": "Avestruz",
+      "grams": 110,
+      "category": "carne_magra",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 236,
+      "name": "Lomo de cerdo desgrasado",
+      "grams": 115,
+      "category": "carne_magra",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 237,
+      "name": "Ternera muy magra (babilla, tapa, cadera)",
+      "grams": 115,
+      "category": "carne_magra",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 238,
+      "name": "Potro",
+      "grams": 110,
+      "category": "carne_magra",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 239,
+      "name": "Bisonte",
+      "grams": 110,
+      "category": "carne_magra",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 240,
+      "name": "Atún al natural escurrido",
+      "grams": 100,
+      "category": "otros",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 241,
+      "name": "Bonito al natural escurrido",
+      "grams": 100,
+      "category": "otros",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 242,
+      "name": "Caballa al natural escurrida",
+      "grams": 110,
+      "category": "otros",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 243,
+      "name": "Pechuga de pollo al natural",
+      "grams": 105,
+      "category": "otros",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 244,
+      "name": "Queso fresco batido 0%",
+      "grams": 275,
+      "category": "lacteo_magro",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 245,
+      "name": "Skyr natural",
+      "grams": 200,
+      "category": "lacteo_magro",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 246,
+      "name": "Yogur alto en proteínas",
+      "grams": 200,
+      "category": "lacteo_magro",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 247,
+      "name": "Yogur griego 0% alto en proteínas",
+      "grams": 200,
+      "category": "lacteo_magro",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 248,
+      "name": "Quark 0%",
+      "grams": 210,
+      "category": "lacteo_magro",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 249,
+      "name": "Cottage bajo en grasa",
+      "grams": 250,
+      "category": "lacteo_magro",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 250,
+      "name": "Requesón 0–2% MG",
+      "grams": 220,
+      "category": "lacteo_magro",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 251,
+      "name": "Proteína Whey Isolate",
+      "grams": 25,
+      "category": "otros",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 252,
+      "name": "Proteína Whey Concentrate",
+      "grams": 28,
+      "category": "otros",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 253,
+      "name": "Caseína",
+      "grams": 28,
+      "category": "otros",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 254,
+      "name": "Proteína de clara",
+      "grams": 26,
+      "category": "otros",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 255,
+      "name": "Proteína de soja aislada",
+      "grams": 25,
+      "category": "otros",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 256,
+      "name": "Proteína de guisante",
+      "grams": 28,
+      "category": "otros",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 257,
+      "name": "Huevo entero",
+      "grams": 120,
+      "category": "huevo_grasa",
+      "group": "proteina_grasa_media"
+    },
+    {
+      "id": 258,
+      "name": "Atún fresco",
+      "grams": 115,
+      "category": "pescado_grasa_alta",
+      "group": "proteina_grasa_media"
+    },
+    {
+      "id": 259,
+      "name": "Bonito fresco",
+      "grams": 115,
+      "category": "pescado_grasa_media",
+      "group": "proteina_grasa_media"
+    },
+    {
+      "id": 260,
+      "name": "Trucha",
+      "grams": 125,
+      "category": "pescado_grasa_media",
+      "group": "proteina_grasa_media"
+    },
+    {
+      "id": 261,
+      "name": "Salmón ahumado",
+      "grams": 110,
+      "category": "pescado_grasa_alta",
+      "group": "proteina_grasa_media"
+    },
+    {
+      "id": 262,
+      "name": "Lomo de cerdo",
+      "grams": 110,
+      "category": "carne_grasa_media",
+      "group": "proteina_grasa_media"
+    },
+    {
+      "id": 263,
+      "name": "Lomo embuchado",
+      "grams": 55,
+      "category": "carne_grasa_media",
+      "group": "proteina_grasa_media"
+    },
+    {
+      "id": 264,
+      "name": "Cinta de lomo",
+      "grams": 110,
+      "category": "carne_grasa_media",
+      "group": "proteina_grasa_media"
+    },
+    {
+      "id": 265,
+      "name": "Jamón serrano (magro)",
+      "grams": 90,
+      "category": "carne_grasa_media",
+      "group": "proteina_grasa_media"
+    },
+    {
+      "id": 266,
+      "name": "Cecina",
+      "grams": 95,
+      "category": "carne_grasa_media",
+      "group": "proteina_grasa_media"
+    },
+    {
+      "id": 267,
+      "name": "Roast beef",
+      "grams": 105,
+      "category": "carne_grasa_media",
+      "group": "proteina_grasa_media"
+    },
+    {
+      "id": 268,
+      "name": "Solomillo de ternera",
+      "grams": 115,
+      "category": "carne_grasa_media",
+      "group": "proteina_grasa_media"
+    },
+    {
+      "id": 269,
+      "name": "Solomillo de cerdo",
+      "grams": 110,
+      "category": "carne_grasa_media",
+      "group": "proteina_grasa_media"
+    },
+    {
+      "id": 270,
+      "name": "Vacuno 5% MG",
+      "grams": 110,
+      "category": "carne_grasa_media",
+      "group": "proteina_grasa_media"
+    },
+    {
+      "id": 271,
+      "name": "Carne picada de pollo 5% MG",
+      "grams": 105,
+      "category": "carne_grasa_media",
+      "group": "proteina_grasa_media"
+    },
+    {
+      "id": 272,
+      "name": "Carne picada de pavo 5% MG",
+      "grams": 105,
+      "category": "carne_grasa_media",
+      "group": "proteina_grasa_media"
+    },
+    {
+      "id": 273,
+      "name": "Muslo de pollo sin piel",
+      "grams": 115,
+      "category": "carne_grasa_media",
+      "group": "proteina_grasa_media"
+    },
+    {
+      "id": 274,
+      "name": "Muslo de pavo sin piel",
+      "grams": 115,
+      "category": "carne_grasa_media",
+      "group": "proteina_grasa_media"
+    },
+    {
+      "id": 275,
+      "name": "Contramuslo de pollo sin piel",
+      "grams": 115,
+      "category": "carne_grasa_media",
+      "group": "proteina_grasa_media"
+    },
+    {
+      "id": 276,
+      "name": "Queso cottage 5% MG",
+      "grams": 250,
+      "category": "lacteos",
+      "group": "proteina_grasa_media"
+    },
+    {
+      "id": 277,
+      "name": "Ricotta light",
+      "grams": 200,
+      "category": "lacteos",
+      "group": "proteina_grasa_media"
+    },
+    {
+      "id": 278,
+      "name": "Mozzarella light",
+      "grams": 150,
+      "category": "lacteos",
+      "group": "proteina_grasa_media"
+    },
+    {
+      "id": 279,
+      "name": "Queso fresco de Burgos semidesnatado",
+      "grams": 200,
+      "category": "lacteos",
+      "group": "proteina_grasa_media"
+    },
+    {
+      "id": 280,
+      "name": "Tofu firme",
+      "grams": 260,
+      "category": "otros",
+      "group": "proteina_grasa_media"
+    },
+    {
+      "id": 281,
+      "name": "Edamame",
+      "grams": 200,
+      "category": "legumbre",
+      "group": "proteina_grasa_media"
+    },
+    {
+      "id": 282,
+      "name": "Salmón fresco",
+      "grams": 110,
+      "category": "pescado_grasa_alta",
+      "group": "proteina_grasa_alta"
+    },
+    {
+      "id": 283,
+      "name": "Salmón congelado",
+      "grams": 110,
+      "category": "pescado_grasa_alta",
+      "group": "proteina_grasa_alta"
+    },
+    {
+      "id": 284,
+      "name": "Caballa fresca",
+      "grams": 105,
+      "category": "pescado_grasa_alta",
+      "group": "proteina_grasa_alta"
+    },
+    {
+      "id": 285,
+      "name": "Sardinas",
+      "grams": 110,
+      "category": "pescado_grasa_alta",
+      "group": "proteina_grasa_alta"
+    },
+    {
+      "id": 286,
+      "name": "Boquerones",
+      "grams": 120,
+      "category": "pescado_grasa_media",
+      "group": "proteina_grasa_alta"
+    },
+    {
+      "id": 287,
+      "name": "Arenque",
+      "grams": 110,
+      "category": "pescado_grasa_alta",
+      "group": "proteina_grasa_alta"
+    },
+    {
+      "id": 288,
+      "name": "Anguila",
+      "grams": 120,
+      "category": "pescado_grasa_alta",
+      "group": "proteina_grasa_alta"
+    },
+    {
+      "id": 289,
+      "name": "Atún en aceite escurrido",
+      "grams": 100,
+      "category": "pescado_grasa_alta",
+      "group": "proteina_grasa_alta"
+    },
+    {
+      "id": 290,
+      "name": "Caballa en aceite escurrida",
+      "grams": 100,
+      "category": "pescado_grasa_alta",
+      "group": "proteina_grasa_alta"
+    },
+    {
+      "id": 291,
+      "name": "Sardinas en aceite escurridas",
+      "grams": 100,
+      "category": "pescado_grasa_alta",
+      "group": "proteina_grasa_alta"
+    },
+    {
+      "id": 292,
+      "name": "Tempeh",
+      "grams": 115,
+      "category": "otros",
+      "group": "proteina_grasa_alta"
+    },
+    {
+      "id": 293,
+      "name": "Tofu ahumado",
+      "grams": 180,
+      "category": "otros",
+      "group": "proteina_grasa_alta"
+    },
+    {
+      "id": 294,
+      "name": "Queso semicurado",
+      "grams": 90,
+      "category": "lacteos",
+      "group": "proteina_grasa_alta"
+    },
+    {
+      "id": 295,
+      "name": "Queso curado",
+      "grams": 85,
+      "category": "lacteos",
+      "group": "proteina_grasa_alta"
+    },
+    {
+      "id": 296,
+      "name": "Queso manchego",
+      "grams": 85,
+      "category": "lacteos",
+      "group": "proteina_grasa_alta"
+    },
+    {
+      "id": 297,
+      "name": "Parmesano",
+      "grams": 80,
+      "category": "lacteos",
+      "group": "proteina_grasa_alta"
+    },
+    {
+      "id": 298,
+      "name": "Emmental",
+      "grams": 85,
+      "category": "lacteos",
+      "group": "proteina_grasa_alta"
+    },
+    {
+      "id": 299,
+      "name": "Cheddar",
+      "grams": 85,
+      "category": "lacteos",
+      "group": "proteina_grasa_alta"
+    },
+    {
+      "id": 300,
+      "name": "Mozzarella entera",
+      "grams": 120,
+      "category": "lacteos",
+      "group": "proteina_grasa_alta"
+    },
+    {
+      "id": 301,
+      "name": "Queso de cabra",
+      "grams": 95,
+      "category": "lacteos",
+      "group": "proteina_grasa_alta"
+    },
+    {
+      "id": 302,
+      "name": "Jamón serrano graso",
+      "grams": 95,
+      "category": "carne_grasa_alta",
+      "group": "proteina_grasa_alta"
+    },
+    {
+      "id": 303,
+      "name": "Panceta",
+      "grams": 100,
+      "category": "carne_grasa_alta",
+      "group": "proteina_grasa_alta"
+    },
+    {
+      "id": 304,
+      "name": "Bacon",
+      "grams": 100,
+      "category": "carne_grasa_alta",
+      "group": "proteina_grasa_alta"
+    },
+    {
+      "id": 305,
+      "name": "Costilla de cerdo",
+      "grams": 130,
+      "category": "carne_grasa_alta",
+      "group": "proteina_grasa_alta"
+    },
+    {
+      "id": 306,
+      "name": "Chuletas de cordero",
+      "grams": 120,
+      "category": "carne_grasa_alta",
+      "group": "proteina_grasa_alta"
+    },
+    {
+      "id": 307,
+      "name": "Chuletas de cerdo",
+      "grams": 120,
+      "category": "carne_grasa_alta",
+      "group": "proteina_grasa_alta"
+    },
+    {
+      "id": 308,
+      "name": "Entrecot de vacuno",
+      "grams": 120,
+      "category": "carne_grasa_alta",
+      "group": "proteina_grasa_alta"
+    },
+    {
+      "id": 309,
+      "name": "Carne picada vacuno 15% MG",
+      "grams": 120,
+      "category": "carne_grasa_alta",
+      "group": "proteina_grasa_alta"
+    },
+    {
+      "id": 310,
+      "name": "Aceite de oliva",
+      "grams": 10,
+      "category": "grasa",
+      "group": "grasas"
+    },
+    {
+      "id": 311,
+      "name": "Aceite de coco",
+      "grams": 10,
+      "category": "grasa",
+      "group": "grasas"
+    },
+    {
+      "id": 312,
+      "name": "Aceite de linaza",
+      "grams": 10,
+      "category": "grasa",
+      "group": "grasas"
+    },
+    {
+      "id": 313,
+      "name": "Aceitunas verdes",
+      "grams": 65,
+      "category": "grasa",
+      "group": "grasas"
+    },
+    {
+      "id": 314,
+      "name": "Aceitunas negras",
+      "grams": 92,
+      "category": "grasa",
+      "group": "grasas"
+    },
+    {
+      "id": 315,
+      "name": "Aceitunas rellenas",
+      "grams": 63,
+      "category": "grasa",
+      "group": "grasas"
+    },
+    {
+      "id": 316,
+      "name": "Aguacate",
+      "grams": 68,
+      "category": "grasa",
+      "group": "grasas"
+    },
+    {
+      "id": 317,
+      "name": "Guacamole",
+      "grams": 66,
+      "category": "grasa",
+      "group": "grasas"
+    },
+    {
+      "id": 318,
+      "name": "Nueces",
+      "grams": 15,
+      "category": "frutos_secos",
+      "group": "grasas"
+    },
+    {
+      "id": 319,
+      "name": "Nuez pecana",
+      "grams": 14,
+      "category": "frutos_secos",
+      "group": "grasas"
+    },
+    {
+      "id": 320,
+      "name": "Nuez Macadamia",
+      "grams": 13,
+      "category": "frutos_secos",
+      "group": "grasas"
+    },
+    {
+      "id": 321,
+      "name": "Nuez de Brasil",
+      "grams": 15,
+      "category": "frutos_secos",
+      "group": "grasas"
+    },
+    {
+      "id": 322,
+      "name": "Piñones",
+      "grams": 15,
+      "category": "frutos_secos",
+      "group": "grasas"
+    },
+    {
+      "id": 323,
+      "name": "Almendras naturales o tostadas sin sal",
+      "grams": 20,
+      "category": "frutos_secos",
+      "group": "grasas"
+    },
+    {
+      "id": 324,
+      "name": "Avellanas naturales o tostadas sin sal",
+      "grams": 16,
+      "category": "frutos_secos",
+      "group": "grasas"
+    },
+    {
+      "id": 325,
+      "name": "Cacahuetes naturales o tostados sin sal",
+      "grams": 20,
+      "category": "frutos_secos",
+      "group": "grasas"
+    },
+    {
+      "id": 326,
+      "name": "Pistachos naturales o tostados sin sal",
+      "grams": 22,
+      "category": "frutos_secos",
+      "group": "grasas"
+    },
+    {
+      "id": 327,
+      "name": "Anacardo",
+      "grams": 23,
+      "category": "frutos_secos",
+      "group": "grasas"
+    },
+    {
+      "id": 328,
+      "name": "Coco fresco",
+      "grams": 30,
+      "category": "grasa",
+      "group": "grasas"
+    },
+    {
+      "id": 329,
+      "name": "Coco seco rallado",
+      "grams": 15,
+      "category": "grasa",
+      "group": "grasas"
+    },
+    {
+      "id": 330,
+      "name": "Mantequilla",
+      "grams": 10,
+      "category": "grasa",
+      "group": "grasas"
+    },
+    {
+      "id": 331,
+      "name": "Crema de cacahuete",
+      "grams": 20,
+      "category": "grasa",
+      "group": "grasas"
+    },
+    {
+      "id": 332,
+      "name": "Crema de almendra",
+      "grams": 18,
+      "category": "grasa",
+      "group": "grasas"
+    },
+    {
+      "id": 333,
+      "name": "Tahini",
+      "grams": 19,
+      "category": "grasa",
+      "group": "grasas"
+    },
+    {
+      "id": 334,
+      "name": "Crema de anacardo",
+      "grams": 20,
+      "category": "grasa",
+      "group": "grasas"
+    },
+    {
+      "id": 335,
+      "name": "Crema de avellana",
+      "grams": 16,
+      "category": "grasa",
+      "group": "grasas"
+    },
+    {
+      "id": 336,
+      "name": "Crema de pistacho",
+      "grams": 22,
+      "category": "grasa",
+      "group": "grasas"
+    },
+    {
+      "id": 337,
+      "name": "Semillas de cáñamo",
+      "grams": 20,
+      "category": "grasa",
+      "group": "grasas"
+    },
+    {
+      "id": 338,
+      "name": "Semillas de chía",
+      "grams": 33,
+      "category": "grasa",
+      "group": "grasas"
+    },
+    {
+      "id": 339,
+      "name": "Semillas de lino",
+      "grams": 24,
+      "category": "grasa",
+      "group": "grasas"
+    },
+    {
+      "id": 340,
+      "name": "Semillas de sésamo tostado o Tahini",
+      "grams": 20,
+      "category": "grasa",
+      "group": "grasas"
+    },
+    {
+      "id": 341,
+      "name": "Pipas girasol naturales",
+      "grams": 19,
+      "category": "grasa",
+      "group": "grasas"
+    },
+    {
+      "id": 342,
+      "name": "Pipas calabaza mondadas naturales",
+      "grams": 20,
+      "category": "grasa",
+      "group": "grasas"
+    },
+    {
+      "id": 343,
+      "name": "Semillas de amapola",
+      "grams": 24,
+      "category": "grasa",
+      "group": "grasas"
+    },
+    {
+      "id": 344,
+      "name": "Chocolate 70% sin azúcar",
+      "grams": 15,
+      "category": "grasa",
+      "group": "grasas"
+    },
+    {
+      "id": 345,
+      "name": "Chocolate 82%",
+      "grams": 15,
+      "category": "grasa",
+      "group": "grasas"
+    },
+    {
+      "id": 346,
+      "name": "Chocolate 85%",
+      "grams": 15,
+      "category": "grasa",
+      "group": "grasas"
+    },
+    {
+      "id": 347,
+      "name": "Chocolate 92%",
+      "grams": 15,
+      "category": "grasa",
+      "group": "grasas"
+    },
+    {
+      "id": 348,
+      "name": "Chocolate 100%",
+      "grams": 15,
+      "category": "grasa",
+      "group": "grasas"
+    },
+    {
+      "id": 349,
+      "name": "Leche de coco",
+      "grams": 42,
+      "category": "grasa",
+      "group": "grasas"
+    },
+    {
+      "id": 350,
+      "name": "Nata de coco",
+      "grams": 29,
+      "category": "grasa",
+      "group": "grasas"
+    },
+    {
+      "id": 351,
+      "name": "Nibs cacao 100%",
+      "grams": 15,
+      "category": "grasa",
+      "group": "grasas"
+    },
+    {
+      "id": 352,
+      "name": "Hummus",
+      "grams": 60,
+      "category": "grasa",
+      "group": "grasas"
+    },
+    {
+      "id": 353,
+      "name": "Queso crema bajo en grasa",
+      "grams": 60,
+      "category": "grasa",
+      "group": "grasas"
+    },
+    {
+      "id": 354,
+      "name": "Mayonesa",
+      "grams": 13,
+      "category": "grasa",
+      "group": "grasas"
+    },
+    {
+      "id": 355,
+      "name": "Alioli",
+      "grams": 13,
+      "category": "grasa",
+      "group": "grasas"
+    },
+    {
+      "id": 356,
+      "name": "Pesto",
+      "grams": 21,
+      "category": "grasa",
+      "group": "grasas"
+    },
+    {
+      "id": 357,
+      "name": "Acelga",
+      "grams": 378,
+      "category": "verdura",
+      "group": "verduras"
+    },
+    {
+      "id": 358,
+      "name": "Alcachofa",
+      "grams": 133,
+      "category": "verdura",
+      "group": "verduras"
+    },
+    {
+      "id": 359,
+      "name": "Apio",
+      "grams": 467,
+      "category": "verdura",
+      "group": "verduras"
+    },
+    {
+      "id": 360,
+      "name": "Berenjena",
+      "grams": 237,
+      "category": "verdura",
+      "group": "verduras"
+    },
+    {
+      "id": 361,
+      "name": "Brócoli",
+      "grams": 212,
+      "category": "verdura",
+      "group": "verduras"
+    },
+    {
+      "id": 362,
+      "name": "Calabacín",
+      "grams": 452,
+      "category": "verdura",
+      "group": "verduras"
+    },
+    {
+      "id": 363,
+      "name": "Calabaza",
+      "grams": 215,
+      "category": "verdura",
+      "group": "verduras"
+    },
+    {
+      "id": 364,
+      "name": "Cardo",
+      "grams": 250,
+      "category": "verdura",
+      "group": "verduras"
+    },
+    {
+      "id": 365,
+      "name": "Cebolla",
+      "grams": 151,
+      "category": "verdura",
+      "group": "verduras"
+    },
+    {
+      "id": 366,
+      "name": "Champiñones",
+      "grams": 424,
+      "category": "verdura",
+      "group": "verduras"
+    },
+    {
+      "id": 367,
+      "name": "Chirivía",
+      "grams": 150,
+      "category": "verdura",
+      "group": "verduras"
+    },
+    {
+      "id": 368,
+      "name": "Col lombarda",
+      "grams": 250,
+      "category": "verdura",
+      "group": "verduras"
+    },
+    {
+      "id": 369,
+      "name": "Col blanca",
+      "grams": 241,
+      "category": "verdura",
+      "group": "verduras"
+    },
+    {
+      "id": 370,
+      "name": "Coles de bruselas",
+      "grams": 156,
+      "category": "verdura",
+      "group": "verduras"
+    },
+    {
+      "id": 371,
+      "name": "Coliflor",
+      "grams": 280,
+      "category": "verdura",
+      "group": "verduras"
+    },
+    {
+      "id": 372,
+      "name": "Endibia",
+      "grams": 412,
+      "category": "verdura",
+      "group": "verduras"
+    },
+    {
+      "id": 373,
+      "name": "Escarola",
+      "grams": 250,
+      "category": "verdura",
+      "group": "verduras"
+    },
+    {
+      "id": 374,
+      "name": "Espárrago blanco en conserva",
+      "grams": 250,
+      "category": "verdura",
+      "group": "verduras"
+    },
+    {
+      "id": 375,
+      "name": "Espárrago fresco pelado",
+      "grams": 359,
+      "category": "verdura",
+      "group": "verduras"
+    },
+    {
+      "id": 376,
+      "name": "Espinacas",
+      "grams": 389,
+      "category": "verdura",
+      "group": "verduras"
+    },
+    {
+      "id": 377,
+      "name": "Judía verde",
+      "grams": 200,
+      "category": "verdura",
+      "group": "verduras"
+    },
+    {
+      "id": 378,
+      "name": "Lechuga",
+      "grams": 483,
+      "category": "verdura",
+      "group": "verduras"
+    },
+    {
+      "id": 379,
+      "name": "Nabos",
+      "grams": 250,
+      "category": "verdura",
+      "group": "verduras"
+    },
+    {
+      "id": 380,
+      "name": "Palmito en conserva",
+      "grams": 150,
+      "category": "verdura",
+      "group": "verduras"
+    },
+    {
+      "id": 381,
+      "name": "Pepino",
+      "grams": 389,
+      "category": "verdura",
+      "group": "verduras"
+    },
+    {
+      "id": 382,
+      "name": "Pimiento rojo",
+      "grams": 233,
+      "category": "verdura",
+      "group": "verduras"
+    },
+    {
+      "id": 383,
+      "name": "Pimiento verde",
+      "grams": 304,
+      "category": "verdura",
+      "group": "verduras"
+    },
+    {
+      "id": 384,
+      "name": "Puerro",
+      "grams": 99,
+      "category": "verdura",
+      "group": "verduras"
+    },
+    {
+      "id": 385,
+      "name": "Rábano",
+      "grams": 412,
+      "category": "verdura",
+      "group": "verduras"
+    },
+    {
+      "id": 386,
+      "name": "Salsa concentrada de tomate comercial",
+      "grams": 50,
+      "category": "verdura",
+      "group": "verduras"
+    },
+    {
+      "id": 387,
+      "name": "Soja germinada en conserva",
+      "grams": 250,
+      "category": "verdura",
+      "group": "verduras"
+    },
+    {
+      "id": 388,
+      "name": "Tomate maduro crudo",
+      "grams": 359,
+      "category": "verdura",
+      "group": "verduras"
+    },
+    {
+      "id": 389,
+      "name": "Tomate pelado triturado en conserva sin azúcar",
+      "grams": 359,
+      "category": "verdura",
+      "group": "verduras"
+    },
+    {
+      "id": 390,
+      "name": "Remolacha",
+      "grams": 146,
+      "category": "verdura",
+      "group": "verduras"
+    },
+    {
+      "id": 391,
+      "name": "Repollo",
+      "grams": 241,
+      "category": "verdura",
+      "group": "verduras"
+    },
+    {
+      "id": 392,
+      "name": "Zanahoria",
+      "grams": 146,
+      "category": "verdura",
+      "group": "verduras"
+    },
+    {
+      "id": 393,
+      "name": "Canónigos",
+      "grams": 389,
+      "category": "verdura",
+      "group": "verduras"
+    },
+    {
+      "id": 394,
+      "name": "Rúcula",
+      "grams": 378,
+      "category": "verdura",
+      "group": "verduras"
+    },
+    {
+      "id": 395,
+      "name": "Albaricoque",
+      "grams": 126,
+      "category": "fruta",
+      "group": "frutas"
+    },
+    {
+      "id": 396,
+      "name": "Albaricoque seco sin hueso",
+      "grams": 40,
+      "category": "fruta",
+      "group": "frutas"
+    },
+    {
+      "id": 397,
+      "name": "Arándanos",
+      "grams": 97,
+      "category": "fruta",
+      "group": "frutas"
+    },
+    {
+      "id": 398,
+      "name": "Cerezas",
+      "grams": 88,
+      "category": "fruta",
+      "group": "frutas"
+    },
+    {
+      "id": 399,
+      "name": "Ciruelas",
+      "grams": 123,
+      "category": "fruta",
+      "group": "frutas"
+    },
+    {
+      "id": 400,
+      "name": "Dátil seco",
+      "grams": 20,
+      "category": "fruta",
+      "group": "frutas"
+    },
+    {
+      "id": 401,
+      "name": "Frambuesa",
+      "grams": 118,
+      "category": "fruta",
+      "group": "frutas"
+    },
+    {
+      "id": 402,
+      "name": "Fresa",
+      "grams": 182,
+      "category": "fruta",
+      "group": "frutas"
+    },
+    {
+      "id": 403,
+      "name": "Granada",
+      "grams": 75,
+      "category": "fruta",
+      "group": "frutas"
+    },
+    {
+      "id": 404,
+      "name": "Higos",
+      "grams": 73,
+      "category": "fruta",
+      "group": "frutas"
+    },
+    {
+      "id": 405,
+      "name": "Kiwi",
+      "grams": 95,
+      "category": "fruta",
+      "group": "frutas"
+    },
+    {
+      "id": 406,
+      "name": "Lichi en conserva",
+      "grams": 200,
+      "category": "fruta",
+      "group": "frutas"
+    },
+    {
+      "id": 407,
+      "name": "Mandarina",
+      "grams": 105,
+      "category": "fruta",
+      "group": "frutas"
+    },
+    {
+      "id": 408,
+      "name": "Mango",
+      "grams": 93,
+      "category": "fruta",
+      "group": "frutas"
+    },
+    {
+      "id": 409,
+      "name": "Manzana",
+      "grams": 101,
+      "category": "fruta",
+      "group": "frutas"
+    },
+    {
+      "id": 410,
+      "name": "Melocotón",
+      "grams": 147,
+      "category": "fruta",
+      "group": "frutas"
+    },
+    {
+      "id": 411,
+      "name": "Melón",
+      "grams": 171,
+      "category": "fruta",
+      "group": "frutas"
+    },
+    {
+      "id": 412,
+      "name": "Moras",
+      "grams": 146,
+      "category": "fruta",
+      "group": "frutas"
+    },
+    {
+      "id": 413,
+      "name": "Naranja",
+      "grams": 119,
+      "category": "fruta",
+      "group": "frutas"
+    },
+    {
+      "id": 414,
+      "name": "Nectarina",
+      "grams": 132,
+      "category": "fruta",
+      "group": "frutas"
+    },
+    {
+      "id": 415,
+      "name": "Nísperos",
+      "grams": 200,
+      "category": "fruta",
+      "group": "frutas"
+    },
+    {
+      "id": 416,
+      "name": "Papaya",
+      "grams": 127,
+      "category": "fruta",
+      "group": "frutas"
+    },
+    {
+      "id": 417,
+      "name": "Pasas secas",
+      "grams": 20,
+      "category": "fruta",
+      "group": "frutas"
+    },
+    {
+      "id": 418,
+      "name": "Pera",
+      "grams": 92,
+      "category": "fruta",
+      "group": "frutas"
+    },
+    {
+      "id": 419,
+      "name": "Piña",
+      "grams": 107,
+      "category": "fruta",
+      "group": "frutas"
+    },
+    {
+      "id": 420,
+      "name": "Plátano",
+      "grams": 61,
+      "category": "fruta",
+      "group": "frutas"
+    },
+    {
+      "id": 421,
+      "name": "Pomelo",
+      "grams": 131,
+      "category": "fruta",
+      "group": "frutas"
+    },
+    {
+      "id": 422,
+      "name": "Sandía",
+      "grams": 184,
+      "category": "fruta",
+      "group": "frutas"
+    },
+    {
+      "id": 423,
+      "name": "Uvas",
+      "grams": 77,
+      "category": "fruta",
+      "group": "frutas"
+    },
+    {
+      "id": 424,
+      "name": "Limón",
+      "grams": 151,
+      "category": "fruta",
+      "group": "frutas"
+    },
+    {
+      "id": 425,
+      "name": "Lima",
+      "grams": 133,
+      "category": "fruta",
+      "group": "frutas"
+    },
+    {
+      "id": 426,
+      "name": "Caqui",
+      "grams": 75,
+      "category": "fruta",
+      "group": "frutas"
+    },
+    {
+      "id": 427,
+      "name": "Chirimoya",
+      "grams": 78,
+      "category": "fruta",
+      "group": "frutas"
+    },
+    {
+      "id": 428,
+      "name": "Barrita proteica Bar Collection",
+      "grams": 55,
+      "category": "otros",
+      "group": "otros1"
+    },
+    {
+      "id": 429,
+      "name": "Barrita proteica Barebells",
+      "grams": 55,
+      "category": "otros",
+      "group": "otros1"
+    },
+    {
+      "id": 430,
+      "name": "Batido proteico Barebells",
+      "grams": 330,
+      "category": "otros",
+      "group": "otros2"
+    },
+    {
+      "id": 431,
+      "name": "Bebida de almendras sin azúcar",
+      "grams": 250,
+      "category": "otros",
+      "group": "otros3"
+    },
+    {
+      "id": 432,
+      "name": "Bebida de soja sin azúcar",
+      "grams": 250,
+      "category": "otros",
+      "group": "otros4"
+    },
+    {
+      "id": 433,
+      "name": "Queso parmesano",
+      "grams": 20,
+      "category": "otros",
+      "group": "otros4"
+    },
+    {
+      "id": 434,
+      "name": "Altramuces en conserva sin azúcar",
+      "grams": 100,
+      "category": "otros",
+      "group": "otros5"
+    },
+    {
+      "id": 435,
+      "name": "Soja texturizada",
+      "grams": 30,
+      "category": "otros",
+      "group": "otros5"
+    },
+    {
+      "id": 436,
+      "name": "Requesón",
+      "grams": 100,
+      "category": "otros",
+      "group": "otros4"
+    },
+    {
+      "id": 437,
+      "name": "Leche desnatada + proteínas",
+      "grams": 150,
+      "category": "lacteos",
+      "group": "lacteos_desnatados"
+    },
+    {
+      "id": 438,
+      "name": "Leche desnatada",
+      "grams": 200,
+      "category": "lacteos",
+      "group": "lacteos_desnatados"
+    },
+    {
+      "id": 439,
+      "name": "Leche semidesnatada",
+      "grams": 200,
+      "category": "lacteos",
+      "group": "lacteos_desnatados"
+    },
+    {
+      "id": 440,
+      "name": "Yogur desnatado natural",
+      "grams": 200,
+      "category": "lacteos",
+      "group": "lacteos_desnatados"
+    },
+    {
+      "id": 441,
+      "name": "Queso fresco tipo Burgos 0%",
+      "grams": 120,
+      "category": "lacteos",
+      "group": "lacteos_desnatados"
+    },
+    {
+      "id": 442,
+      "name": "Yogur de cabra desnatado",
+      "grams": 200,
+      "category": "lacteos",
+      "group": "lacteos_desnatados"
+    },
+    {
+      "id": 443,
+      "name": "Kéfir de oveja desnatado",
+      "grams": 200,
+      "category": "lacteos",
+      "group": "lacteos_desnatados"
+    },
+    {
+      "id": 444,
+      "name": "Kéfir de cabra desnatado",
+      "grams": 200,
+      "category": "lacteos",
+      "group": "lacteos_desnatados"
+    },
+    {
+      "id": 445,
+      "name": "Yogur de soja",
+      "grams": 180,
+      "category": "lacteos",
+      "group": "lacteos_desnatados"
+    },
+    {
+      "id": 446,
+      "name": "Yogur griego ligero",
+      "grams": 120,
+      "category": "lacteos",
+      "group": "lacteos_desnatados"
+    },
+    {
+      "id": 447,
+      "name": "Cuajada",
+      "grams": 125,
+      "category": "lacteos",
+      "group": "lacteos_enteros"
+    },
+    {
+      "id": 448,
+      "name": "Leche de cabra",
+      "grams": 150,
+      "category": "lacteos",
+      "group": "lacteos_enteros"
+    },
+    {
+      "id": 449,
+      "name": "Leche de oveja",
+      "grams": 100,
+      "category": "lacteos",
+      "group": "lacteos_enteros"
+    },
+    {
+      "id": 450,
+      "name": "Leche entera",
+      "grams": 150,
+      "category": "lacteos",
+      "group": "lacteos_enteros"
+    },
+    {
+      "id": 451,
+      "name": "Yogur natural entero",
+      "grams": 200,
+      "category": "lacteos",
+      "group": "lacteos_enteros"
+    },
+    {
+      "id": 452,
+      "name": "Kéfir",
+      "grams": 150,
+      "category": "lacteos",
+      "group": "lacteos_enteros"
+    },
+    {
+      "id": 453,
+      "name": "Azúcar blanco",
+      "grams": 10,
+      "category": "azucar",
+      "group": "azucares"
+    },
+    {
+      "id": 454,
+      "name": "Cacao soluble en polvo sin azúcar",
+      "grams": 10,
+      "category": "azucar",
+      "group": "azucares"
+    },
+    {
+      "id": 455,
+      "name": "Mermelada",
+      "grams": 15,
+      "category": "azucar",
+      "group": "azucares"
+    },
+    {
+      "id": 456,
+      "name": "Miel",
+      "grams": 15,
+      "category": "azucar",
+      "group": "azucares"
+    }
   ]
 }

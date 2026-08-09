@@ -16,7 +16,7 @@ class DatabaseService {
 
   /// IMPORTANTE
   /// Incrementa este número cuando cambies foods.json
-  static const _foodsDataVersion = 4;
+  static const _foodsDataVersion = 5;
 
   static Future<dynamic> getDatabase() async {
 
@@ -64,7 +64,7 @@ class DatabaseService {
 
     await db.execute('''
       CREATE TABLE foods(
-        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        id INTEGER PRIMARY KEY,
         name TEXT,
         grams INTEGER,
         category TEXT,
@@ -178,6 +178,7 @@ class DatabaseService {
 
     for (var item in foodsList) {
       batch.insert('foods', {
+        'id': item['id'],
         'name': item['name'],
         'grams': item['grams'],
         'category': item['category'],

@@ -9,9 +9,9 @@ import '../utils/category_icon.dart';
 import '../utils/text_utils.dart';
 
 class SearchScreen extends StatefulWidget {
-  final String? initialFood;
+  final int? initialFoodId;
 
-  const SearchScreen({super.key, this.initialFood});
+  const SearchScreen({super.key, this.initialFoodId});
 
   @override
   State<SearchScreen> createState() => _SearchScreenState();
@@ -21,7 +21,7 @@ class _SearchScreenState extends State<SearchScreen> {
 
   List<Food> foods = [];
   List<Food> filteredFoods = [];
-  List<String> favorites = [];
+  List<int> favorites = [];
 
   Food? selectedFood;
 
@@ -43,20 +43,22 @@ class _SearchScreenState extends State<SearchScreen> {
     final loadedFoods = await FoodService.loadFoods();
     final favs = await FavoritesService.getFavorites();
 
+    if (!mounted) return;
+
     setState(() {
       foods = loadedFoods;
       favorites = favs;
       filteredFoods = [];
     });
 
-    if (widget.initialFood != null) {
+    if (widget.initialFoodId != null) {
 
       final match = foods.firstWhere(
-        (food) =>
-            TextUtils.normalize(food.name) ==
-            TextUtils.normalize(widget.initialFood!),
+        (food) => food.id == widget.initialFoodId,
         orElse: () => foods.first,
       );
+
+      if (!mounted) return;
 
       setState(() {
         selectedFood = match;
@@ -89,12 +91,12 @@ class _SearchScreenState extends State<SearchScreen> {
 
     final results = foods.where((food) {
 
-    final normalizedName = TextUtils.normalize(food.name);
+      final normalizedName = TextUtils.normalize(food.name);
 
-    final words = normalizedName.split(" ");
+      final words = normalizedName.split(" ");
 
-    return words.any((word) => word.startsWith(normalizedQuery)) ||
-         normalizedName.contains(normalizedQuery);
+      return words.any((word) => word.startsWith(normalizedQuery)) ||
+          normalizedName.contains(normalizedQuery);
 
     }).toList();
 
@@ -104,12 +106,12 @@ class _SearchScreenState extends State<SearchScreen> {
 
   }
 
-  Future<void> toggleFavorite(String foodName) async {
+  Future<void> toggleFavorite(int foodId) async {
 
-    if (favorites.contains(foodName)) {
-      await FavoritesService.removeFavorite(foodName);
+    if (favorites.contains(foodId)) {
+      await FavoritesService.removeFavorite(foodId);
     } else {
-      await FavoritesService.addFavorite(foodName);
+      await FavoritesService.addFavorite(foodId);
     }
 
     final favs = await FavoritesService.getFavorites();
@@ -123,7 +125,7 @@ class _SearchScreenState extends State<SearchScreen> {
 
   Future<void> selectFood(Food food) async {
 
-    await HistoryService.addHistory(food.name);
+    await HistoryService.addHistory(food.id);
 
     if (!mounted) return;
 
@@ -175,7 +177,7 @@ class _SearchScreenState extends State<SearchScreen> {
         itemBuilder: (context, index) {
 
           final food = filteredFoods[index];
-          final isFavorite = favorites.contains(food.name);
+          final isFavorite = favorites.contains(food.id);
 
           return ListTile(
             leading: getCategoryIcon(food.category),
@@ -185,7 +187,7 @@ class _SearchScreenState extends State<SearchScreen> {
                 isFavorite ? Icons.star : Icons.star_border,
                 color: isFavorite ? Colors.amber : Colors.grey,
               ),
-              onPressed: () => toggleFavorite(food.name),
+              onPressed: () => toggleFavorite(food.id),
             ),
             onTap: () => selectFood(food),
           );
@@ -210,7 +212,7 @@ class _SearchScreenState extends State<SearchScreen> {
           final Food food = item["food"];
           final double grams = item["grams"];
 
-          final isFavorite = favorites.contains(food.name);
+          final isFavorite = favorites.contains(food.id);
 
           return Container(
             margin: const EdgeInsets.symmetric(vertical: 6),
@@ -259,7 +261,7 @@ class _SearchScreenState extends State<SearchScreen> {
                     isFavorite ? Icons.star : Icons.star_border,
                     color: isFavorite ? Colors.amber : Colors.grey,
                   ),
-                  onPressed: () => toggleFavorite(food.name),
+                  onPressed: () => toggleFavorite(food.id),
                 ),
               ],
             ),

@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+
+import '../models/food.dart';
 import '../services/favorites_service.dart';
+import '../services/food_service.dart';
 import 'search_screen.dart';
 
 class FavoritesScreen extends StatefulWidget {
@@ -11,7 +14,8 @@ class FavoritesScreen extends StatefulWidget {
 
 class _FavoritesScreenState extends State<FavoritesScreen> {
 
-  List<String> favorites = [];
+  List<int> favorites = [];
+  List<Food> foods = [];
 
   @override
   void initState() {
@@ -19,30 +23,34 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
     loadFavorites();
   }
 
-  void loadFavorites() async {
+  Future<void> loadFavorites() async {
 
     final data = await FavoritesService.getFavorites();
+    final loadedFoods = await FoodService.loadFoods();
+
+    if (!mounted) return;
 
     setState(() {
       favorites = data;
+      foods = loadedFoods;
     });
 
   }
 
-  void removeFavorite(String food) async {
+  Future<void> removeFavorite(int foodId) async {
 
-    await FavoritesService.removeFavorite(food);
+    await FavoritesService.removeFavorite(foodId);
 
     loadFavorites();
 
   }
 
-  void openSearch(String food) {
+  void openSearch(int foodId) {
 
     Navigator.push(
       context,
       MaterialPageRoute(
-        builder: (_) => SearchScreen(initialFood: food),
+        builder: (_) => SearchScreen(initialFoodId: foodId),
       ),
     );
 
@@ -51,23 +59,28 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
   @override
   Widget build(BuildContext context) {
 
+    final validFavorites = favorites
+        .map((id) => foods.where((food) => food.id == id).firstOrNull)
+        .whereType<Food>()
+        .toList();
+
     return Scaffold(
 
       appBar: AppBar(
         title: const Text("Favoritos"),
       ),
 
-      body: favorites.isEmpty
+      body: validFavorites.isEmpty
 
           ? const Center(child: Text("No hay favoritos aún"))
 
           : ListView.builder(
 
-              itemCount: favorites.length,
+              itemCount: validFavorites.length,
 
               itemBuilder: (context, index) {
 
-                final food = favorites[index];
+                final food = validFavorites[index];
 
                 return ListTile(
 
@@ -76,13 +89,13 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
                     color: Colors.red,
                   ),
 
-                  title: Text(food),
+                  title: Text(food.name),
 
-                  onTap: () => openSearch(food),
+                  onTap: () => openSearch(food.id),
 
                   trailing: IconButton(
                     icon: const Icon(Icons.delete),
-                    onPressed: () => removeFavorite(food),
+                    onPressed: () => removeFavorite(food.id),
                   ),
 
                 );
