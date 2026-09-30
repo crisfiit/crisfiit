@@ -170,8 +170,7 @@ class _SearchScreenState extends State<SearchScreen> {
       return const SizedBox();
     }
 
-    return SizedBox(
-      height: 200,
+    return Expanded(
       child: ListView.builder(
         itemCount: filteredFoods.length,
         itemBuilder: (context, index) {

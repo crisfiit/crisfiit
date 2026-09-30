@@ -323,13 +323,6 @@
       "group": "hidratos"
     },
     {
-      "id": 47,
-      "name": "Copos glaseados",
-      "grams": 17,
-      "category": "cereales_desayuno",
-      "group": "hidratos"
-    },
-    {
       "id": 48,
       "name": "Cereales infantiles 8 cereales",
       "grams": 18,
@@ -661,16 +654,16 @@
     {
       "id": 95,
       "name": "Harina de almendra",
-      "grams": 70,
+      "grams": 20,
       "category": "harinas_semolas",
-      "group": "hidratos"
+      "group": "grasas"
     },
     {
       "id": 96,
       "name": "Harina de coco",
-      "grams": 58,
+      "grams": 30,
       "category": "harinas_semolas",
-      "group": "hidratos"
+      "group": "otros1"
     },
     {
       "id": 97,
@@ -1003,7 +996,7 @@
     },
     {
       "id": 144,
-      "name": "Ñoquis de patata",
+      "name": "Gnocchi de patata",
       "grams": 47,
       "category": "tuberculos",
       "group": "hidratos"
@@ -1166,55 +1159,6 @@
       "id": 167,
       "name": "Ñame cocido",
       "grams": 60,
-      "category": "tuberculos",
-      "group": "hidratos"
-    },
-    {
-      "id": 168,
-      "name": "Taro crudo",
-      "grams": 40,
-      "category": "tuberculos",
-      "group": "hidratos"
-    },
-    {
-      "id": 169,
-      "name": "Taro cocido",
-      "grams": 54,
-      "category": "tuberculos",
-      "group": "hidratos"
-    },
-    {
-      "id": 170,
-      "name": "Malanga cruda",
-      "grams": 41,
-      "category": "tuberculos",
-      "group": "hidratos"
-    },
-    {
-      "id": 171,
-      "name": "Malanga cocida",
-      "grams": 54,
-      "category": "tuberculos",
-      "group": "hidratos"
-    },
-    {
-      "id": 172,
-      "name": "Oca andina",
-      "grams": 76,
-      "category": "tuberculos",
-      "group": "hidratos"
-    },
-    {
-      "id": 173,
-      "name": "Mashua",
-      "grams": 88,
-      "category": "tuberculos",
-      "group": "hidratos"
-    },
-    {
-      "id": 174,
-      "name": "Arracacha",
-      "grams": 54,
       "category": "tuberculos",
       "group": "hidratos"
     },
@@ -1598,7 +1542,7 @@
     },
     {
       "id": 229,
-      "name": "Pechuga de pollo",
+      "name": "Pechuga de pollo sin piel",
       "grams": 105,
       "category": "carne_magra",
       "group": "proteina_magra"
@@ -1696,7 +1640,7 @@
     },
     {
       "id": 243,
-      "name": "Pechuga de pollo al natural",
+      "name": "Pechuga de pollo marinado al ajillo",
       "grams": 105,
       "category": "otros",
       "group": "proteina_magra"
@@ -1740,13 +1684,6 @@
       "id": 249,
       "name": "Cottage bajo en grasa",
       "grams": 250,
-      "category": "lacteo_magro",
-      "group": "proteina_magra"
-    },
-    {
-      "id": 250,
-      "name": "Requesón 0–2% MG",
-      "grams": 220,
       "category": "lacteo_magro",
       "group": "proteina_magra"
     },
@@ -1809,9 +1746,9 @@
     {
       "id": 259,
       "name": "Bonito fresco",
-      "grams": 115,
-      "category": "pescado_grasa_media",
-      "group": "proteina_grasa_media"
+      "grams": 98,
+      "category": "pescado_grasa_alta",
+      "group": "proteina_grasa_alta"
     },
     {
       "id": 260,
@@ -2049,63 +1986,56 @@
       "name": "Tofu ahumado",
       "grams": 180,
       "category": "otros",
-      "group": "proteina_grasa_alta"
+      "group": "proteina_grasa_muy_alta"
     },
     {
       "id": 294,
       "name": "Queso semicurado",
-      "grams": 90,
+      "grams": 30,
       "category": "lacteos",
-      "group": "proteina_grasa_alta"
-    },
-    {
-      "id": 295,
-      "name": "Queso curado",
-      "grams": 85,
-      "category": "lacteos",
-      "group": "proteina_grasa_alta"
+      "group": "grasas"
     },
     {
       "id": 296,
-      "name": "Queso manchego",
-      "grams": 85,
+      "name": "Queso manchego curado",
+      "grams": 30,
       "category": "lacteos",
-      "group": "proteina_grasa_alta"
+      "group": "grasas"
     },
     {
       "id": 297,
       "name": "Parmesano",
-      "grams": 80,
+      "grams": 35,
       "category": "lacteos",
-      "group": "proteina_grasa_alta"
+      "group": "grasas"
     },
     {
       "id": 298,
-      "name": "Emmental",
-      "grams": 85,
+      "name": "Queso emmental",
+      "grams": 30,
       "category": "lacteos",
-      "group": "proteina_grasa_alta"
+      "group": "grasas"
     },
     {
       "id": 299,
-      "name": "Cheddar",
-      "grams": 85,
+      "name": "Queso cheddar",
+      "grams": 30,
       "category": "lacteos",
-      "group": "proteina_grasa_alta"
+      "group": "grasas"
     },
     {
       "id": 300,
       "name": "Mozzarella entera",
-      "grams": 120,
+      "grams": 50,
       "category": "lacteos",
-      "group": "proteina_grasa_alta"
+      "group": "grasas"
     },
     {
       "id": 301,
       "name": "Queso de cabra",
-      "grams": 95,
+      "grams": 35,
       "category": "lacteos",
-      "group": "proteina_grasa_alta"
+      "group": "grasas"
     },
     {
       "id": 302,
@@ -2117,51 +2047,51 @@
     {
       "id": 303,
       "name": "Panceta",
-      "grams": 100,
+      "grams": 20,
       "category": "carne_grasa_alta",
-      "group": "proteina_grasa_alta"
+      "group": "grasas"
     },
     {
       "id": 304,
       "name": "Bacon",
-      "grams": 100,
+      "grams": 25,
       "category": "carne_grasa_alta",
-      "group": "proteina_grasa_alta"
+      "group": "grasas"
     },
     {
       "id": 305,
       "name": "Costilla de cerdo",
       "grams": 130,
       "category": "carne_grasa_alta",
-      "group": "proteina_grasa_alta"
+      "group": "proteina_grasa_muy_alta"
     },
     {
       "id": 306,
       "name": "Chuletas de cordero",
       "grams": 120,
       "category": "carne_grasa_alta",
-      "group": "proteina_grasa_alta"
+      "group": "proteina_grasa_muy_alta"
     },
     {
       "id": 307,
       "name": "Chuletas de cerdo",
       "grams": 120,
       "category": "carne_grasa_alta",
-      "group": "proteina_grasa_alta"
+      "group": "proteina_grasa_muy_alta"
     },
     {
       "id": 308,
       "name": "Entrecot de vacuno",
       "grams": 120,
       "category": "carne_grasa_alta",
-      "group": "proteina_grasa_alta"
+      "group": "proteina_grasa_muy_alta"
     },
     {
       "id": 309,
       "name": "Carne picada vacuno 15% MG",
       "grams": 120,
       "category": "carne_grasa_alta",
-      "group": "proteina_grasa_alta"
+      "group": "proteina_grasa_muy_alta"
     },
     {
       "id": 310,
@@ -2222,35 +2152,35 @@
     {
       "id": 318,
       "name": "Nueces",
-      "grams": 15,
+      "grams": 20,
       "category": "frutos_secos",
       "group": "grasas"
     },
     {
       "id": 319,
-      "name": "Nuez pecana",
-      "grams": 14,
+      "name": "Nuez Pecana",
+      "grams": 20,
       "category": "frutos_secos",
       "group": "grasas"
     },
     {
       "id": 320,
       "name": "Nuez Macadamia",
-      "grams": 13,
+      "grams": 20,
       "category": "frutos_secos",
       "group": "grasas"
     },
     {
       "id": 321,
       "name": "Nuez de Brasil",
-      "grams": 15,
+      "grams": 20,
       "category": "frutos_secos",
       "group": "grasas"
     },
     {
       "id": 322,
       "name": "Piñones",
-      "grams": 15,
+      "grams": 20,
       "category": "frutos_secos",
       "group": "grasas"
     },
@@ -2264,7 +2194,7 @@
     {
       "id": 324,
       "name": "Avellanas naturales o tostadas sin sal",
-      "grams": 16,
+      "grams": 20,
       "category": "frutos_secos",
       "group": "grasas"
     },
@@ -2278,14 +2208,14 @@
     {
       "id": 326,
       "name": "Pistachos naturales o tostados sin sal",
-      "grams": 22,
+      "grams": 20,
       "category": "frutos_secos",
       "group": "grasas"
     },
     {
       "id": 327,
       "name": "Anacardo",
-      "grams": 23,
+      "grams": 20,
       "category": "frutos_secos",
       "group": "grasas"
     },
@@ -2312,43 +2242,43 @@
     },
     {
       "id": 331,
-      "name": "Crema de cacahuete",
+      "name": "Crema de cacahuete 100% Sin Azúcar",
       "grams": 20,
       "category": "grasa",
       "group": "grasas"
     },
     {
       "id": 332,
-      "name": "Crema de almendra",
-      "grams": 18,
+      "name": "Crema de almendra 100% Sin Azúcar",
+      "grams": 20,
       "category": "grasa",
       "group": "grasas"
     },
     {
       "id": 333,
       "name": "Tahini",
-      "grams": 19,
+      "grams": 20,
       "category": "grasa",
       "group": "grasas"
     },
     {
       "id": 334,
-      "name": "Crema de anacardo",
+      "name": "Crema de anacardo 100% Sin Azúcar",
       "grams": 20,
       "category": "grasa",
       "group": "grasas"
     },
     {
       "id": 335,
-      "name": "Crema de avellana",
-      "grams": 16,
+      "name": "Crema de avellana 100% Sin Azúcar",
+      "grams": 20,
       "category": "grasa",
       "group": "grasas"
     },
     {
       "id": 336,
-      "name": "Crema de pistacho",
-      "grams": 22,
+      "name": "Crema de pistacho 100% Sin Azúcar",
+      "grams": 20,
       "category": "grasa",
       "group": "grasas"
     },
@@ -2383,7 +2313,7 @@
     {
       "id": 341,
       "name": "Pipas girasol naturales",
-      "grams": 19,
+      "grams": 20,
       "category": "grasa",
       "group": "grasas"
     },
@@ -2440,13 +2370,6 @@
       "id": 349,
       "name": "Leche de coco",
       "grams": 42,
-      "category": "grasa",
-      "group": "grasas"
-    },
-    {
-      "id": 350,
-      "name": "Nata de coco",
-      "grams": 29,
       "category": "grasa",
       "group": "grasas"
     },
@@ -2990,34 +2913,6 @@
       "group": "frutas"
     },
     {
-      "id": 428,
-      "name": "Barrita proteica Bar Collection",
-      "grams": 55,
-      "category": "otros",
-      "group": "otros1"
-    },
-    {
-      "id": 429,
-      "name": "Barrita proteica Barebells",
-      "grams": 55,
-      "category": "otros",
-      "group": "otros1"
-    },
-    {
-      "id": 430,
-      "name": "Batido proteico Barebells",
-      "grams": 330,
-      "category": "otros",
-      "group": "otros2"
-    },
-    {
-      "id": 431,
-      "name": "Bebida de almendras sin azúcar",
-      "grams": 250,
-      "category": "otros",
-      "group": "otros3"
-    },
-    {
       "id": 432,
       "name": "Bebida de soja sin azúcar",
       "grams": 250,
@@ -3025,32 +2920,18 @@
       "group": "otros4"
     },
     {
-      "id": 433,
-      "name": "Queso parmesano",
-      "grams": 20,
-      "category": "otros",
-      "group": "otros4"
-    },
-    {
-      "id": 434,
-      "name": "Altramuces en conserva sin azúcar",
-      "grams": 100,
-      "category": "otros",
-      "group": "otros5"
-    },
-    {
       "id": 435,
       "name": "Soja texturizada",
-      "grams": 30,
+      "grams": 45,
       "category": "otros",
       "group": "otros5"
     },
     {
       "id": 436,
-      "name": "Requesón",
-      "grams": 100,
-      "category": "otros",
-      "group": "otros4"
+      "name": "Requesón 0-2% MG",
+      "grams": 220,
+      "category": "lacteo_magro",
+      "group": "proteina_magra"
     },
     {
       "id": 437,
@@ -3172,13 +3053,6 @@
       "group": "azucares"
     },
     {
-      "id": 454,
-      "name": "Cacao soluble en polvo sin azúcar",
-      "grams": 10,
-      "category": "azucar",
-      "group": "azucares"
-    },
-    {
       "id": 455,
       "name": "Mermelada",
       "grams": 15,
@@ -3191,6 +3065,1000 @@
       "grams": 15,
       "category": "azucar",
       "group": "azucares"
+    },
+    {
+      "id": 457,
+      "name": "Ñoquis de patata",
+      "grams": 47,
+      "category": "tuberculos",
+      "group": "hidratos"
+    },
+    {
+      "id": 458,
+      "name": "Fiambre de pollo 95%",
+      "grams": 105,
+      "category": "carne_magra",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 459,
+      "name": "Queso Cottage 0-2% MG",
+      "grams": 250,
+      "category": "lacteo_magro",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 461,
+      "name": "Nata",
+      "grams": 29,
+      "category": "lacteos",
+      "group": "grasas"
+    },
+    {
+      "id": 462,
+      "name": "Solomillo pollo",
+      "grams": 100,
+      "category": "carne_magra",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 463,
+      "name": "Brochetas de pollo",
+      "grams": 105,
+      "category": "carne_magra",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 464,
+      "name": "Pechuga de pavo marinado al ajillo",
+      "grams": 105,
+      "category": "carne_magra",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 465,
+      "name": "Besugo",
+      "grams": 115,
+      "category": "pescado_magro",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 466,
+      "name": "Congrio",
+      "grams": 115,
+      "category": "pescado_magro",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 467,
+      "name": "Pollo en lata al natural",
+      "grams": 105,
+      "category": "carne_magra",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 468,
+      "name": "Pollo en tiras al natural",
+      "grams": 105,
+      "category": "carne_magra",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 469,
+      "name": "Heura original",
+      "grams": 135,
+      "category": "otros",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 470,
+      "name": "Seitán",
+      "grams": 110,
+      "category": "otros",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 471,
+      "name": "Clara de huevo en polvo",
+      "grams": 26,
+      "category": "huevo_magro",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 472,
+      "name": "Queso Eatlean",
+      "grams": 75,
+      "category": "lacteo_magro",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 473,
+      "name": "Pasta de soja seca",
+      "grams": 35,
+      "category": "pasta",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 474,
+      "name": "Pasta de edamame seca",
+      "grams": 40,
+      "category": "pasta",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 475,
+      "name": "Costilla ternera",
+      "grams": 145,
+      "category": "carne_grasa_alta",
+      "group": "proteina_grasa_muy_alta"
+    },
+    {
+      "id": 476,
+      "name": "Bistec ternera magro",
+      "grams": 110,
+      "category": "carne_grasa_media",
+      "group": "proteina_grasa_media"
+    },
+    {
+      "id": 477,
+      "name": "Hamburguesa de ternera (5% MG)",
+      "grams": 110,
+      "category": "carne_grasa_media",
+      "group": "proteina_grasa_media"
+    },
+    {
+      "id": 478,
+      "name": "Hamburguesa pollo",
+      "grams": 105,
+      "category": "carne_grasa_media",
+      "group": "proteina_grasa_media"
+    },
+    {
+      "id": 479,
+      "name": "Chicharillos en escabeche",
+      "grams": 120,
+      "category": "pescado_grasa_media",
+      "group": "proteina_grasa_media"
+    },
+    {
+      "id": 480,
+      "name": "Cacahuete en polvo desgrasado",
+      "grams": 45,
+      "category": "frutos_secos",
+      "group": "proteina_grasa_media"
+    },
+    {
+      "id": 481,
+      "name": "Anchoas en aceite (escurridas)",
+      "grams": 75,
+      "category": "pescado_grasa_alta",
+      "group": "proteina_grasa_alta"
+    },
+    {
+      "id": 482,
+      "name": "Bonito en aceite escurrido",
+      "grams": 95,
+      "category": "pescado_grasa_alta",
+      "group": "proteina_grasa_alta"
+    },
+    {
+      "id": 483,
+      "name": "Lacón",
+      "grams": 105,
+      "category": "carne_grasa_alta",
+      "group": "proteina_grasa_alta"
+    },
+    {
+      "id": 484,
+      "name": "Fideo integral sopa",
+      "grams": 20,
+      "category": "pasta",
+      "group": "hidratos"
+    },
+    {
+      "id": 485,
+      "name": "Higos secos",
+      "grams": 22,
+      "category": "fruta",
+      "group": "frutas"
+    },
+    {
+      "id": 486,
+      "name": "Orejones de albaricoque",
+      "grams": 22,
+      "category": "fruta",
+      "group": "frutas"
+    },
+    {
+      "id": 487,
+      "name": "Mango desecado",
+      "grams": 18,
+      "category": "fruta",
+      "group": "frutas"
+    },
+    {
+      "id": 488,
+      "name": "Papaya desecada",
+      "grams": 18,
+      "category": "fruta",
+      "group": "frutas"
+    },
+    {
+      "id": 489,
+      "name": "Piña desecada",
+      "grams": 17,
+      "category": "fruta",
+      "group": "frutas"
+    },
+    {
+      "id": 490,
+      "name": "Plátano desecado",
+      "grams": 16,
+      "category": "fruta",
+      "group": "frutas"
+    },
+    {
+      "id": 491,
+      "name": "Manzana desecada",
+      "grams": 22,
+      "category": "fruta",
+      "group": "frutas"
+    },
+    {
+      "id": 492,
+      "name": "Pera desecada",
+      "grams": 21,
+      "category": "fruta",
+      "group": "frutas"
+    },
+    {
+      "id": 493,
+      "name": "Melocotón desecado",
+      "grams": 23,
+      "category": "fruta",
+      "group": "frutas"
+    },
+    {
+      "id": 494,
+      "name": "Arándanos desecados",
+      "grams": 17,
+      "category": "fruta",
+      "group": "frutas"
+    },
+    {
+      "id": 495,
+      "name": "Fideos finos",
+      "grams": 19,
+      "category": "pasta",
+      "group": "hidratos"
+    },
+    {
+      "id": 496,
+      "name": "Cabello de ángel",
+      "grams": 19,
+      "category": "pasta",
+      "group": "hidratos"
+    },
+    {
+      "id": 497,
+      "name": "Lasaña seca",
+      "grams": 19,
+      "category": "pasta",
+      "group": "hidratos"
+    },
+    {
+      "id": 498,
+      "name": "Canelones secos",
+      "grams": 19,
+      "category": "pasta",
+      "group": "hidratos"
+    },
+    {
+      "id": 499,
+      "name": "Ricotta entera",
+      "grams": 75,
+      "category": "lacteos",
+      "group": "grasas"
+    },
+    {
+      "id": 500,
+      "name": "Feta",
+      "grams": 45,
+      "category": "lacteos",
+      "group": "grasas"
+    },
+    {
+      "id": 501,
+      "name": "Gruyère",
+      "grams": 30,
+      "category": "lacteos",
+      "group": "grasas"
+    },
+    {
+      "id": 502,
+      "name": "Gouda",
+      "grams": 35,
+      "category": "lacteos",
+      "group": "grasas"
+    },
+    {
+      "id": 503,
+      "name": "Havarti",
+      "grams": 30,
+      "category": "lacteos",
+      "group": "grasas"
+    },
+    {
+      "id": 504,
+      "name": "Brie",
+      "grams": 35,
+      "category": "lacteos",
+      "group": "grasas"
+    },
+    {
+      "id": 505,
+      "name": "Camembert",
+      "grams": 40,
+      "category": "lacteos",
+      "group": "grasas"
+    },
+    {
+      "id": 506,
+      "name": "Roquefort",
+      "grams": 30,
+      "category": "lacteos",
+      "group": "grasas"
+    },
+    {
+      "id": 507,
+      "name": "Queso azul",
+      "grams": 30,
+      "category": "lacteos",
+      "group": "grasas"
+    },
+    {
+      "id": 508,
+      "name": "Gorgonzola",
+      "grams": 35,
+      "category": "lacteos",
+      "group": "grasas"
+    },
+    {
+      "id": 509,
+      "name": "Jamón ibérico",
+      "grams": 80,
+      "category": "carne_grasa_alta",
+      "group": "proteina_grasa_muy_alta"
+    },
+    {
+      "id": 510,
+      "name": "Chorizo",
+      "grams": 25,
+      "category": "carne_grasa_alta",
+      "group": "grasas"
+    },
+    {
+      "id": 511,
+      "name": "Salchichón",
+      "grams": 25,
+      "category": "carne_grasa_alta",
+      "group": "grasas"
+    },
+    {
+      "id": 512,
+      "name": "Fuet",
+      "grams": 25,
+      "category": "carne_grasa_alta",
+      "group": "grasas"
+    },
+    {
+      "id": 513,
+      "name": "Mortadela",
+      "grams": 40,
+      "category": "carne_grasa_alta",
+      "group": "grasas"
+    },
+    {
+      "id": 514,
+      "name": "Salami",
+      "grams": 25,
+      "category": "carne_grasa_alta",
+      "group": "grasas"
+    },
+    {
+      "id": 515,
+      "name": "Sobrasada",
+      "grams": 15,
+      "category": "carne_grasa_alta",
+      "group": "grasas"
+    },
+    {
+      "id": 516,
+      "name": "Contramuslo de pavo sin piel",
+      "grams": 102,
+      "category": "carne_magra",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 517,
+      "name": "Codorniz",
+      "grams": 100,
+      "category": "carne_grasa_alta",
+      "group": "proteina_grasa_alta"
+    },
+    {
+      "id": 518,
+      "name": "Perdiz",
+      "grams": 96,
+      "category": "carne_grasa_media",
+      "group": "proteina_grasa_media"
+    },
+    {
+      "id": 519,
+      "name": "Faisán",
+      "grams": 94,
+      "category": "carne_grasa_media",
+      "group": "proteina_grasa_media"
+    },
+    {
+      "id": 520,
+      "name": "Pintada",
+      "grams": 98,
+      "category": "carne_grasa_media",
+      "group": "proteina_grasa_media"
+    },
+    {
+      "id": 521,
+      "name": "Pato sin piel",
+      "grams": 105,
+      "category": "carne_grasa_alta",
+      "group": "proteina_grasa_alta"
+    },
+    {
+      "id": 522,
+      "name": "Emú",
+      "grams": 100,
+      "category": "carne_grasa_media",
+      "group": "proteina_grasa_media"
+    },
+    {
+      "id": 523,
+      "name": "Ternera magra",
+      "grams": 110,
+      "category": "carne_magra",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 524,
+      "name": "Ternera picada 5% MG",
+      "grams": 110,
+      "category": "carne_magra",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 525,
+      "name": "Ternera picada 10% MG",
+      "grams": 120,
+      "category": "carne_grasa_alta",
+      "group": "proteina_grasa_alta"
+    },
+    {
+      "id": 526,
+      "name": "Añojo",
+      "grams": 105,
+      "category": "carne_grasa_alta",
+      "group": "proteina_grasa_alta"
+    },
+    {
+      "id": 527,
+      "name": "Cordero lechal",
+      "grams": 120,
+      "category": "carne_grasa_alta",
+      "group": "proteina_grasa_muy_alta"
+    },
+    {
+      "id": 528,
+      "name": "Cordero pierna",
+      "grams": 120,
+      "category": "carne_grasa_alta",
+      "group": "proteina_grasa_muy_alta"
+    },
+    {
+      "id": 529,
+      "name": "Cabrito",
+      "grams": 120,
+      "category": "carne_grasa_alta",
+      "group": "proteina_grasa_muy_alta"
+    },
+    {
+      "id": 530,
+      "name": "Cerdo blanco (lomo)",
+      "grams": 100,
+      "category": "carne_magra",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 531,
+      "name": "Cerdo ibérico magro",
+      "grams": 105,
+      "category": "carne_grasa_alta",
+      "group": "proteina_grasa_alta"
+    },
+    {
+      "id": 532,
+      "name": "Cerdo aguja",
+      "grams": 113,
+      "category": "carne_grasa_alta",
+      "group": "proteina_grasa_muy_alta"
+    },
+    {
+      "id": 533,
+      "name": "Cerdo secreto",
+      "grams": 122,
+      "category": "carne_grasa_alta",
+      "group": "proteina_grasa_muy_alta"
+    },
+    {
+      "id": 534,
+      "name": "Cerdo presa ibérica",
+      "grams": 110,
+      "category": "carne_grasa_alta",
+      "group": "proteina_grasa_muy_alta"
+    },
+    {
+      "id": 535,
+      "name": "Cerdo pluma ibérica",
+      "grams": 113,
+      "category": "carne_grasa_alta",
+      "group": "proteina_grasa_muy_alta"
+    },
+    {
+      "id": 536,
+      "name": "Jabalí",
+      "grams": 100,
+      "category": "carne_grasa_media",
+      "group": "proteina_grasa_media"
+    },
+    {
+      "id": 537,
+      "name": "Ciervo",
+      "grams": 100,
+      "category": "carne_grasa_media",
+      "group": "proteina_grasa_media"
+    },
+    {
+      "id": 538,
+      "name": "Corzo",
+      "grams": 98,
+      "category": "carne_magra",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 539,
+      "name": "Yema de huevo",
+      "grams": 55,
+      "category": "grasa",
+      "group": "grasas"
+    },
+    {
+      "id": 540,
+      "name": "Huevo de codorniz",
+      "grams": 120,
+      "category": "huevo_grasa",
+      "group": "proteina_grasa_alta"
+    },
+    {
+      "id": 541,
+      "name": "Huevo líquido pasteurizado entero",
+      "grams": 120,
+      "category": "huevo_grasa",
+      "group": "proteina_grasa_alta"
+    },
+    {
+      "id": 542,
+      "name": "Clara líquida pasteurizada",
+      "grams": 202,
+      "category": "huevo_magro",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 543,
+      "name": "Yema líquida pasteurizada",
+      "grams": 55,
+      "category": "grasa",
+      "group": "grasas"
+    },
+    {
+      "id": 544,
+      "name": "Huevo en polvo entero",
+      "grams": 47,
+      "category": "huevo_grasa",
+      "group": "proteina_grasa_alta"
+    },
+    {
+      "id": 545,
+      "name": "Yema de huevo en polvo",
+      "grams": 15,
+      "category": "grasa",
+      "group": "grasas"
+    },
+    {
+      "id": 546,
+      "name": "Yogur griego natural 0%",
+      "grams": 214,
+      "category": "lacteo_magro",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 547,
+      "name": "Kéfir desnatado",
+      "grams": 265,
+      "category": "lacteo_magro",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 548,
+      "name": "Mascarpone",
+      "grams": 25,
+      "category": "lacteos",
+      "group": "grasas"
+    },
+    {
+      "id": 549,
+      "name": "Queso fresco entero",
+      "grams": 40,
+      "category": "lacteos",
+      "group": "grasas"
+    },
+    {
+      "id": 550,
+      "name": "Queso de cabra curado",
+      "grams": 35,
+      "category": "lacteos",
+      "group": "grasas"
+    },
+    {
+      "id": 551,
+      "name": "Gambón",
+      "grams": 94,
+      "category": "marisco",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 552,
+      "name": "Centollo",
+      "grams": 116,
+      "category": "marisco",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 553,
+      "name": "Buey de mar",
+      "grams": 113,
+      "category": "marisco",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 554,
+      "name": "Cangrejo",
+      "grams": 117,
+      "category": "marisco",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 555,
+      "name": "Nécora",
+      "grams": 110,
+      "category": "marisco",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 556,
+      "name": "Percebe",
+      "grams": 140,
+      "category": "marisco",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 557,
+      "name": "Camarón",
+      "grams": 100,
+      "category": "marisco",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 558,
+      "name": "Chipirón",
+      "grams": 121,
+      "category": "marisco",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 559,
+      "name": "Pota",
+      "grams": 126,
+      "category": "marisco",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 560,
+      "name": "Ostra",
+      "grams": 185,
+      "category": "marisco",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 561,
+      "name": "Navaja",
+      "grams": 126,
+      "category": "marisco",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 562,
+      "name": "Erizo de mar",
+      "grams": 163,
+      "category": "marisco",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 563,
+      "name": "Jurel",
+      "grams": 110,
+      "category": "pescado_grasa_alta",
+      "group": "proteina_grasa_alta"
+    },
+    {
+      "id": 564,
+      "name": "Sardina fresca",
+      "grams": 106,
+      "category": "pescado_grasa_alta",
+      "group": "proteina_grasa_alta"
+    },
+    {
+      "id": 565,
+      "name": "Sardinilla",
+      "grams": 105,
+      "category": "pescado_grasa_alta",
+      "group": "proteina_grasa_alta"
+    },
+    {
+      "id": 566,
+      "name": "Anchoa fresca",
+      "grams": 107,
+      "category": "pescado_grasa_alta",
+      "group": "proteina_grasa_alta"
+    },
+    {
+      "id": 567,
+      "name": "Trucha asalmonada",
+      "grams": 105,
+      "category": "pescado_grasa_alta",
+      "group": "proteina_grasa_alta"
+    },
+    {
+      "id": 568,
+      "name": "Pez espada",
+      "grams": 102,
+      "category": "pescado_grasa_media",
+      "group": "proteina_grasa_media"
+    },
+    {
+      "id": 569,
+      "name": "Emperador",
+      "grams": 102,
+      "category": "pescado_grasa_media",
+      "group": "proteina_grasa_media"
+    },
+    {
+      "id": 570,
+      "name": "Palometa",
+      "grams": 105,
+      "category": "pescado_grasa_alta",
+      "group": "proteina_grasa_alta"
+    },
+    {
+      "id": 571,
+      "name": "Melva",
+      "grams": 100,
+      "category": "pescado_grasa_alta",
+      "group": "proteina_grasa_alta"
+    },
+    {
+      "id": 572,
+      "name": "Lamprea",
+      "grams": 117,
+      "category": "pescado_grasa_alta",
+      "group": "proteina_grasa_alta"
+    },
+    {
+      "id": 573,
+      "name": "Panga",
+      "grams": 142,
+      "category": "pescado_magro",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 574,
+      "name": "Tilapia",
+      "grams": 110,
+      "category": "pescado_magro",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 575,
+      "name": "Fletán blanco",
+      "grams": 116,
+      "category": "pescado_magro",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 576,
+      "name": "Raya",
+      "grams": 122,
+      "category": "pescado_magro",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 577,
+      "name": "San Pedro",
+      "grams": 119,
+      "category": "pescado_magro",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 578,
+      "name": "Platija",
+      "grams": 122,
+      "category": "pescado_magro",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 579,
+      "name": "Natto",
+      "grams": 113,
+      "category": "otros",
+      "group": "proteina_grasa_media"
+    },
+    {
+      "id": 580,
+      "name": "Proteína de arroz aislada",
+      "grams": 28,
+      "category": "otros",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 581,
+      "name": "Proteína de cáñamo",
+      "grams": 44,
+      "category": "otros",
+      "group": "proteina_grasa_media"
+    },
+    {
+      "id": 582,
+      "name": "Atún en escabeche",
+      "grams": 81,
+      "category": "pescado_grasa_media",
+      "group": "proteina_grasa_media"
+    },
+    {
+      "id": 583,
+      "name": "Bonito del norte al natural",
+      "grams": 81,
+      "category": "pescado_magro",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 584,
+      "name": "Bonito del norte en aceite (escurrido)",
+      "grams": 79,
+      "category": "pescado_grasa_media",
+      "group": "proteina_grasa_media"
+    },
+    {
+      "id": 585,
+      "name": "Melva en aceite",
+      "grams": 81,
+      "category": "pescado_grasa_alta",
+      "group": "proteina_grasa_alta"
+    },
+    {
+      "id": 586,
+      "name": "Caballa en aceite (escurrida)",
+      "grams": 92,
+      "category": "pescado_grasa_alta",
+      "group": "proteina_grasa_alta"
+    },
+    {
+      "id": 587,
+      "name": "Caballa en escabeche",
+      "grams": 92,
+      "category": "pescado_grasa_alta",
+      "group": "proteina_grasa_alta"
+    },
+    {
+      "id": 588,
+      "name": "Sardinas al natural",
+      "grams": 92,
+      "category": "pescado_grasa_media",
+      "group": "proteina_grasa_media"
+    },
+    {
+      "id": 589,
+      "name": "Sardinillas en aceite",
+      "grams": 92,
+      "category": "pescado_grasa_alta",
+      "group": "proteina_grasa_alta"
+    },
+    {
+      "id": 590,
+      "name": "Boquerones en vinagre",
+      "grams": 92,
+      "category": "pescado_grasa_media",
+      "group": "proteina_grasa_media"
+    },
+    {
+      "id": 591,
+      "name": "Mejillones al natural",
+      "grams": 122,
+      "category": "marisco",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 592,
+      "name": "Mejillones en escabeche",
+      "grams": 110,
+      "category": "marisco",
+      "group": "proteina_grasa_alta"
+    },
+    {
+      "id": 593,
+      "name": "Berberechos al natural",
+      "grams": 138,
+      "category": "marisco",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 594,
+      "name": "Navajas al natural",
+      "grams": 129,
+      "category": "marisco",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 595,
+      "name": "Pulpo en conserva",
+      "grams": 122,
+      "category": "marisco",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 596,
+      "name": "Calamar en su tinta",
+      "grams": 129,
+      "category": "marisco",
+      "group": "proteina_magra"
+    },
+    {
+      "id": 597,
+      "name": "Chipirones rellenos",
+      "grams": 138,
+      "category": "marisco",
+      "group": "proteina_grasa_media"
+    },
+    {
+      "id": 598,
+      "name": "Zamburiñas en salsa",
+      "grams": 122,
+      "category": "marisco",
+      "group": "proteina_grasa_media"
+    },
+    {
+      "id": 599,
+      "name": "Vieiras en salsa",
+      "grams": 129,
+      "category": "marisco",
+      "group": "proteina_grasa_media"
     }
   ]
 }

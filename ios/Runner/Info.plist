@@ -24,6 +24,12 @@
 		<string>????</string>
 		<key>CFBundleVersion</key>
 		<string>$(FLUTTER_BUILD_NUMBER)</string>
+
+		<key>ITSAppUsesNonExemptEncryption</key>
+		<true/>
+		<key>ITSEncryptionExportComplianceCode</key>
+		<string>b9c8b453-58a3-4918-b004-d3fb02d9b7f3</string>
+
 		<key>LSRequiresIPhoneOS</key>
 		<true/>
 		<key>UIApplicationSceneManifest</key>

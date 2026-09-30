@@ -44,6 +44,9 @@ class PortionCalculator {
       case "proteina_grasa_alta":
         return const FoodPortions(hc: 0, pr: 1, gr: 1);
 
+      case "proteina_grasa_muy_alta":
+        return const FoodPortions(hc: 0, pr: 1, gr: 2);
+
       case "grasas":
         return const FoodPortions(hc: 0, pr: 0, gr: 1);
 
@@ -57,19 +60,13 @@ class PortionCalculator {
         return const FoodPortions(hc: 0.5, pr: 0.5, gr: 0.5);
 
       case "otros1":
-        return const FoodPortions(hc: 0.5, pr: 1, gr: 1);
-
-      case "otros2":
-        return const FoodPortions(hc: 1, pr: 2, gr: 0);
-      
-      case "otros3":
-        return const FoodPortions(hc: 0, pr: 0, gr: 0.25);  
+        return const FoodPortions(hc: 0.5, pr: 0, gr: 0.5);  
 
       case "otros4":
         return const FoodPortions(hc: 0, pr: 0.5, gr: 0.5); 
 
       case "otros5":
-        return const FoodPortions(hc: 0.5, pr: 1, gr: 0); 
+        return const FoodPortions(hc: 1, pr: 1, gr: 0); 
 
       case "otros6":
         return const FoodPortions(hc: 0.5, pr: 1, gr: 1); 

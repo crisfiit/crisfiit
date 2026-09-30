@@ -16,7 +16,7 @@ class DatabaseService {
 
   /// IMPORTANTE
   /// Incrementa este número cuando cambies foods.json
-  static const _foodsDataVersion = 5;
+  static const _foodsDataVersion = 6;
 
   static Future<dynamic> getDatabase() async {
 
