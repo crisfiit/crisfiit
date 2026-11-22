@@ -4,7 +4,7 @@ workflows:
     name: iOS AdHoc
 
     environment:
-      flutter: 3.41.4
+      flutter: 3.50.1
 
       ios_signing:
         distribution_type: ad_hoc
@@ -26,7 +26,7 @@ workflows:
       app_store_connect: Crisfiit Codemagic
 
     environment:
-      flutter: 3.41.4
+      flutter: 3.50.1
 
       ios_signing:
         distribution_type: app_store
