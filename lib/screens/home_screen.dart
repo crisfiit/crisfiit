@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'search_screen.dart';
 import 'favorites_screen.dart';
 import 'history_screen.dart';

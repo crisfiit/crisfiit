@@ -2,7 +2,6 @@ import java.util.Properties
 
 plugins {
     id("com.android.application")
-    id("kotlin-android")
     id("dev.flutter.flutter-gradle-plugin")
     id("com.google.gms.google-services")
     id("com.google.firebase.crashlytics")
@@ -21,14 +20,14 @@ val keystoreProperties = Properties().apply {
 android {
     namespace = "com.equivalencias.crisfiit"
     compileSdk = 36
-    ndkVersion = "27.0.12077973"
+    ndkVersion = "28.2.13676358"
 
     defaultConfig {
         applicationId = "com.equivalencias.crisfiit"
         minSdk = flutter.minSdkVersion
         targetSdk = 36
-        versionCode = 11
-        versionName = "1.0.9"
+        versionCode = 12
+        versionName = "1.0.10"
     }
 
     compileOptions {
@@ -36,10 +35,6 @@ android {
         targetCompatibility = JavaVersion.VERSION_17
     }
 
-    // ⚠️ Aquí la forma correcta de KotlinOptions compatible con Flutter
-    kotlinOptions {
-        jvmTarget = "17"
-    }
 
     signingConfigs {
         create("release") {
@@ -63,6 +58,12 @@ android {
         getByName("debug") {
             signingConfig = signingConfigs.getByName("debug")
         }
+    }
+}
+
+kotlin {
+    compilerOptions {
+        jvmTarget = org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_17
     }
 }
 
