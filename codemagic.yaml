@@ -11,12 +11,53 @@ workflows:
         bundle_identifier: com.equivalencias.crisfiit
 
     scripts:
-      - flutter pub get
-      - xcode-project use-profiles
-      - flutter build ipa --release --export-options-plist=/Users/builder/export_options.plist
+      - name: Get Flutter packages
+        script: flutter pub get
+
+      - name: Configure code signing
+        script: xcode-project use-profiles
+
+      - name: Build IPA
+        script: flutter build ipa --release --export-options-plist=/Users/builder/export_options.plist
+
+      - name: Save iOS diagnostic artifacts
+        script: |
+          set -e
+
+          mkdir -p build/ios/diagnostics
+
+          # Comprimir el archivo de Xcode
+          ditto -c -k --sequesterRsrc --keepParent \
+            build/ios/archive/Runner.xcarchive \
+            build/ios/diagnostics/Runner.xcarchive.zip
+
+          # Obtener los UUID del ejecutable y de los símbolos de depuración
+          {
+            echo "=== RUNNER EXECUTABLE ==="
+            xcrun dwarfdump --uuid \
+              build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Runner
+
+            echo ""
+            echo "=== DEBUG SYMBOLS ==="
+
+            if [ -d build/ios/archive/Runner.xcarchive/dSYMs ]; then
+              find build/ios/archive/Runner.xcarchive/dSYMs \
+                -name "*.dSYM" -print |
+              while IFS= read -r dsym; do
+                echo ""
+                echo "$dsym"
+                xcrun dwarfdump --uuid "$dsym"
+              done
+            else
+              echo "No se ha encontrado el directorio dSYMs."
+            fi
+          } > build/ios/diagnostics/UUID-report.txt
 
     artifacts:
       - build/ios/ipa/*.ipa
+      - build/ios/diagnostics/*.zip
+      - build/ios/diagnostics/*.txt
+      - /tmp/xcodebuild_logs/*.log
 
 
   ios-appstore:
@@ -33,12 +74,53 @@ workflows:
         bundle_identifier: com.equivalencias.crisfiit
 
     scripts:
-      - flutter pub get
-      - xcode-project use-profiles
-      - flutter build ipa --release --export-options-plist=/Users/builder/export_options.plist
+      - name: Get Flutter packages
+        script: flutter pub get
+
+      - name: Configure code signing
+        script: xcode-project use-profiles
+
+      - name: Build IPA
+        script: flutter build ipa --release --export-options-plist=/Users/builder/export_options.plist
+
+      - name: Save iOS diagnostic artifacts
+        script: |
+          set -e
+
+          mkdir -p build/ios/diagnostics
+
+          # Comprimir el archivo de Xcode
+          ditto -c -k --sequesterRsrc --keepParent \
+            build/ios/archive/Runner.xcarchive \
+            build/ios/diagnostics/Runner.xcarchive.zip
+
+          # Obtener los UUID del ejecutable y de los símbolos de depuración
+          {
+            echo "=== RUNNER EXECUTABLE ==="
+            xcrun dwarfdump --uuid \
+              build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Runner
+
+            echo ""
+            echo "=== DEBUG SYMBOLS ==="
+
+            if [ -d build/ios/archive/Runner.xcarchive/dSYMs ]; then
+              find build/ios/archive/Runner.xcarchive/dSYMs \
+                -name "*.dSYM" -print |
+              while IFS= read -r dsym; do
+                echo ""
+                echo "$dsym"
+                xcrun dwarfdump --uuid "$dsym"
+              done
+            else
+              echo "No se ha encontrado el directorio dSYMs."
+            fi
+          } > build/ios/diagnostics/UUID-report.txt
 
     artifacts:
       - build/ios/ipa/*.ipa
+      - build/ios/diagnostics/*.zip
+      - build/ios/diagnostics/*.txt
+      - /tmp/xcodebuild_logs/*.log
 
     publishing:
       app_store_connect:
