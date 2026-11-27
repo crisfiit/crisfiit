@@ -22,36 +22,67 @@ workflows:
 
       - name: Save iOS diagnostic artifacts
         script: |
-          set -e
-
           mkdir -p build/ios/diagnostics
 
-          # Comprimir el archivo de Xcode
-          ditto -c -k --sequesterRsrc --keepParent \
-            build/ios/archive/Runner.xcarchive \
-            build/ios/diagnostics/Runner.xcarchive.zip
+          ARCHIVE="build/ios/archive/Runner.xcarchive"
+          DIAG="build/ios/diagnostics"
 
-          # Obtener los UUID del ejecutable y de los símbolos de depuración
-          {
-            echo "=== RUNNER EXECUTABLE ==="
-            xcrun dwarfdump --uuid \
-              build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Runner
+          echo "=== DIAGNOSTIC INFORMATION ===" > "$DIAG/UUID-report.txt"
+          date >> "$DIAG/UUID-report.txt"
 
-            echo ""
-            echo "=== DEBUG SYMBOLS ==="
+          echo "" >> "$DIAG/UUID-report.txt"
+          echo "=== ARCHIVE CONTENTS ===" >> "$DIAG/UUID-report.txt"
 
-            if [ -d build/ios/archive/Runner.xcarchive/dSYMs ]; then
-              find build/ios/archive/Runner.xcarchive/dSYMs \
-                -name "*.dSYM" -print |
-              while IFS= read -r dsym; do
-                echo ""
-                echo "$dsym"
-                xcrun dwarfdump --uuid "$dsym"
-              done
+          if [ -d "$ARCHIVE" ]; then
+
+            echo "Archive found: $ARCHIVE" >> "$DIAG/UUID-report.txt"
+
+            echo "" >> "$DIAG/UUID-report.txt"
+            echo "=== RUNNER EXECUTABLE ===" >> "$DIAG/UUID-report.txt"
+
+            EXECUTABLE="$ARCHIVE/Products/Applications/Runner.app/Runner"
+
+            if [ -f "$EXECUTABLE" ]; then
+              xcrun dwarfdump --uuid "$EXECUTABLE" \
+                >> "$DIAG/UUID-report.txt" 2>&1 || true
             else
-              echo "No se ha encontrado el directorio dSYMs."
+              echo "Runner executable not found." >> "$DIAG/UUID-report.txt"
             fi
-          } > build/ios/diagnostics/UUID-report.txt
+
+            echo "" >> "$DIAG/UUID-report.txt"
+            echo "=== ALL DEBUG SYMBOLS ===" >> "$DIAG/UUID-report.txt"
+
+            find "$ARCHIVE/dSYMs" -name "*.dSYM" -print 2>/dev/null |
+            while IFS= read -r dsym; do
+              echo "" >> "$DIAG/UUID-report.txt"
+              echo "$dsym" >> "$DIAG/UUID-report.txt"
+
+              xcrun dwarfdump --uuid "$dsym" \
+                >> "$DIAG/UUID-report.txt" 2>&1 || true
+            done
+
+            echo "" >> "$DIAG/UUID-report.txt"
+            echo "=== ARCHIVE COMPRESSION ===" >> "$DIAG/UUID-report.txt"
+
+            ditto -c -k --sequesterRsrc --keepParent \
+              "$ARCHIVE" "$DIAG/Runner.xcarchive.zip" \
+              2>> "$DIAG/UUID-report.txt" || true
+
+          else
+            echo "ERROR: Runner.xcarchive not found." >> "$DIAG/UUID-report.txt"
+          fi
+
+          echo "" >> "$DIAG/UUID-report.txt"
+          echo "=== AVAILABLE BUILD FILES ===" >> "$DIAG/UUID-report.txt"
+
+          find build/ios -maxdepth 4 -type f \
+            >> "$DIAG/UUID-report.txt" 2>/dev/null || true
+
+          echo "" >> "$DIAG/UUID-report.txt"
+          echo "=== XCODE LOG FILES ===" >> "$DIAG/UUID-report.txt"
+
+          ls -lah /tmp/xcodebuild_logs/ \
+            >> "$DIAG/UUID-report.txt" 2>&1 || true
 
     artifacts:
       - build/ios/ipa/*.ipa
@@ -85,36 +116,67 @@ workflows:
 
       - name: Save iOS diagnostic artifacts
         script: |
-          set -e
-
           mkdir -p build/ios/diagnostics
 
-          # Comprimir el archivo de Xcode
-          ditto -c -k --sequesterRsrc --keepParent \
-            build/ios/archive/Runner.xcarchive \
-            build/ios/diagnostics/Runner.xcarchive.zip
+          ARCHIVE="build/ios/archive/Runner.xcarchive"
+          DIAG="build/ios/diagnostics"
 
-          # Obtener los UUID del ejecutable y de los símbolos de depuración
-          {
-            echo "=== RUNNER EXECUTABLE ==="
-            xcrun dwarfdump --uuid \
-              build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Runner
+          echo "=== DIAGNOSTIC INFORMATION ===" > "$DIAG/UUID-report.txt"
+          date >> "$DIAG/UUID-report.txt"
 
-            echo ""
-            echo "=== DEBUG SYMBOLS ==="
+          echo "" >> "$DIAG/UUID-report.txt"
+          echo "=== ARCHIVE CONTENTS ===" >> "$DIAG/UUID-report.txt"
 
-            if [ -d build/ios/archive/Runner.xcarchive/dSYMs ]; then
-              find build/ios/archive/Runner.xcarchive/dSYMs \
-                -name "*.dSYM" -print |
-              while IFS= read -r dsym; do
-                echo ""
-                echo "$dsym"
-                xcrun dwarfdump --uuid "$dsym"
-              done
+          if [ -d "$ARCHIVE" ]; then
+
+            echo "Archive found: $ARCHIVE" >> "$DIAG/UUID-report.txt"
+
+            echo "" >> "$DIAG/UUID-report.txt"
+            echo "=== RUNNER EXECUTABLE ===" >> "$DIAG/UUID-report.txt"
+
+            EXECUTABLE="$ARCHIVE/Products/Applications/Runner.app/Runner"
+
+            if [ -f "$EXECUTABLE" ]; then
+              xcrun dwarfdump --uuid "$EXECUTABLE" \
+                >> "$DIAG/UUID-report.txt" 2>&1 || true
             else
-              echo "No se ha encontrado el directorio dSYMs."
+              echo "Runner executable not found." >> "$DIAG/UUID-report.txt"
             fi
-          } > build/ios/diagnostics/UUID-report.txt
+
+            echo "" >> "$DIAG/UUID-report.txt"
+            echo "=== ALL DEBUG SYMBOLS ===" >> "$DIAG/UUID-report.txt"
+
+            find "$ARCHIVE/dSYMs" -name "*.dSYM" -print 2>/dev/null |
+            while IFS= read -r dsym; do
+              echo "" >> "$DIAG/UUID-report.txt"
+              echo "$dsym" >> "$DIAG/UUID-report.txt"
+
+              xcrun dwarfdump --uuid "$dsym" \
+                >> "$DIAG/UUID-report.txt" 2>&1 || true
+            done
+
+            echo "" >> "$DIAG/UUID-report.txt"
+            echo "=== ARCHIVE COMPRESSION ===" >> "$DIAG/UUID-report.txt"
+
+            ditto -c -k --sequesterRsrc --keepParent \
+              "$ARCHIVE" "$DIAG/Runner.xcarchive.zip" \
+              2>> "$DIAG/UUID-report.txt" || true
+
+          else
+            echo "ERROR: Runner.xcarchive not found." >> "$DIAG/UUID-report.txt"
+          fi
+
+          echo "" >> "$DIAG/UUID-report.txt"
+          echo "=== AVAILABLE BUILD FILES ===" >> "$DIAG/UUID-report.txt"
+
+          find build/ios -maxdepth 4 -type f \
+            >> "$DIAG/UUID-report.txt" 2>/dev/null || true
+
+          echo "" >> "$DIAG/UUID-report.txt"
+          echo "=== XCODE LOG FILES ===" >> "$DIAG/UUID-report.txt"
+
+          ls -lah /tmp/xcodebuild_logs/ \
+            >> "$DIAG/UUID-report.txt" 2>&1 || true
 
     artifacts:
       - build/ios/ipa/*.ipa
